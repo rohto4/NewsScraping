@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 2019/05/08
 
@@ -6,39 +7,54 @@ Created on 2019/05/08
 import requests
 import bs4
 import csv
+import sys
 
-# ƒzƒbƒgƒGƒ“ƒgƒŠƒy[ƒW‚Ìæ“¾A‰ğÍ
+# ãƒ›ãƒƒãƒˆã‚¨ãƒ³ãƒˆãƒªãƒšãƒ¼ã‚¸ã®å–å¾—ã€è§£æ
 def main():
-    headers = {"User-Agent": "Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.84 Safari/537.36"} #User-Agent‚Í©g‚Ìƒuƒ‰ƒEƒU‚ÆOS‚ğİ’è‚·‚é
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"} #User-Agentã¯è‡ªèº«ã®ãƒ–ãƒ©ã‚¦ã‚¶ã¨OSã‚’è¨­å®šã™ã‚‹
     
     res = requests.get("https://techfeed.io/main/realtime/000000000000000000000008", timeout=10, headers=headers)
     
+    print(res.text)
+    sys.exit()
     bs_res = bs4.BeautifulSoup(res.text, "lxml")
     
-    # ‚Í‚Äƒu”‚Æƒ^ƒCƒgƒ‹‚Ìæ“¾
+    print()
+    # è¡¨ç¤ºç”¨é ˜åŸŸ
     techfeed_pg = []
-    for x in bs_res.findAll("div", attrs={"class":"type-article"}):
-        a_tag = x.find("a", attrs={"class":"js-keyboard-openable"})
-        hatebu_num = x.find("a", attrs={"class":"js-keyboard-entry-page-openable"})
+    # articleã‚¿ã‚°å†…ã®è¦ç´ ã‚’ã™ã¹ã¦å–å¾—
+    for x in bs_res.findAll("article", attrs={"class":"type-article"}):
+        # ã‚¿ã‚¤ãƒˆãƒ«
+        title_text_tag = x.find("h1", attrs={"class":"entry-title-text"})
+        # ã‚«ãƒ†ã‚´ãƒª
+        ion_label_tag = x.findAll("span", attrs={"class":"ion-label"})
+        # è¤‡æ•°å–å¾—ã§ããŸå ´åˆã¯çµåˆ
+        print("aa"+type(ion_label_tag))
+        sys.exit()
+        if isinstance(ion_label_tag, list):
+            
+            ion_label_tag = ' / '.join(ion_label_tag)
+        # ãƒ©ãƒ³ã‚¯
+        rank_type_label = x.find("span", attrs={"class":"rank__type"})
+        # ãƒ©ãƒ³ã‚¯ãƒ†ã‚­ã‚¹ãƒˆ
+        rank_text_label = x.find("span", attrs={"class":"rank__text"})
     
-        if a_tag is not None:
-            techfeed_pg.append((hatebu_num.find("span").text, a_tag.attrs["title"], a_tag.attrs["href"]))
+        if ion_label_tag is not None:
+#             techfeed_pg.append((title_text_tag.text, a_tag.attrs["title"], a_tag.attrs["href"]))
+            print('a')
+
+    print(techfeed_pg)
+    # ç¢ºèªç”¨ã«è¡¨ç¤º
+    # x[0] : entry-title-text
+    # x[1] : ion-labelé…åˆ—[]
+    # x[2] : rank__type rank__text
+    # x[3] : entry-content-main
+#     for x in techfeed_pg:
+#         print('{}\n{} / {}   [{}]\n{}'.format(x[0], x[1], x[2], x[3], x[4]))
     
-    # ‚Í‚Äƒu”‚Åƒ\[ƒg
-    techfeed_pg = sorted(techfeed_pg, key=lambda x:int(x[0]), reverse=True)
-    
-    # Šm”F—p‚É•\¦
-    # x[0] : title
-    # x[1] : 
-    # x[2] :
-    # x[3] :
-    # x[4] :
-    for x in techfeed_pg:
-        print('{} || {} \n {}'.format(x[0], x[1], x[2]))
-    
-    # csv‚Éo—Í
+    # csvã«å‡ºåŠ›
 #     f = open('techfeed.csv', 'w')
-    f = open('techfeed.csv', 'w', encoding='CP932', errors='ignore') #windowsŠÂ‹«—pAƒGƒ“ƒR[ƒhƒGƒ‰[‰ñ”ğ
+    f = open('techfeed.csv', 'w', encoding='CP932', errors='ignore') #windowsç’°å¢ƒç”¨ã€ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã‚¨ãƒ©ãƒ¼å›é¿
     
     writer = csv.writer(f, lineterminator='\n')
     
