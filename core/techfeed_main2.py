@@ -21,12 +21,18 @@ def main():
     html = driver.page_source.encode('utf-8')
     # beautifulSoupで扱えるようにパース
     soup = BeautifulSoup(html, 'html.parser')
-    for tag in soup.find_all(True):
-        print(tag.name)
-    
     # 要素の取得
     print(soup.title)
     
-
+    for x in soup.findAll('div', class_='entry-container'):
+        entry_title = x.find('h1', class_='entry-title-text')
+        rank_type = x.find('span', class_='rank__type')
+        rank_text = x.find('span', class_='rank__text')
+        ion_label_all = x.findAll('span', class_='ion-label')
+        print(entry_title)
+        print(rank_type)
+        print(rank_text)
+        print(ion_label_all)
+        
 if __name__ == '__main__':
     main()
