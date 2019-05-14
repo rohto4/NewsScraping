@@ -16,7 +16,7 @@ def main():
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(3)
     # アクセス
-    driver.get('https://techfeed.io/main/realtime/00000000000000000000000')
+    driver.get('https://techfeed.io/main/realtime/000000000000000000000008')
     # utf-8で取得
     html = driver.page_source.encode('utf-8')
     # beautifulSoupで扱えるようにパース
