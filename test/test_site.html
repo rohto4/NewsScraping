@@ -1,0 +1,2514 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test</title>
+<meta name="msapplication-TileColor" content="#FAB600">
+<script>
+	window.setSystemProperty = function(res) {
+		window.techfeed = window.techfeed || {};
+		window.techfeed.systemProperty = res;
+		delete window.setSystemProperty;
+	};
+</script>
+<script
+	src="https://techfeed.io/api/systemProperties/current?dataType=jsonp&callback=setSystemProperty"></script>
+</head>
+<body class="backdrop-no-scroll">
+	<app-root _nghost-ndy-c0="" ng-version="7.2.13"> <ion-app
+		_ngcontent-ndy-c0="" class="ios ion-page hydrated"> <ion-header
+		_ngcontent-ndy-c0="" class="global-header ios header-ios hydrated"
+		id="global-header"><!----> <main-globalnav
+		_nghost-ndy-c21="">
+	<div _ngcontent-ndy-c21="" class="global-header-content">
+		<h1 _ngcontent-ndy-c21="" class="global-logo">
+			<img _ngcontent-ndy-c21="" alt="TechFeed" class="icon"
+				src="images/logo/logo-text.svg">
+		</h1>
+		<div _ngcontent-ndy-c21="" class="global-logo-position-dummy"></div>
+		<nav _ngcontent-ndy-c21="" class="global-nav">
+			<ul _ngcontent-ndy-c21="">
+				<!---->
+				<li _ngcontent-ndy-c21=""><ion-button _ngcontent-ndy-c21=""
+						color="dark" fill="clear" routerlink="/main/bookmarks/me"
+						tabindex="0"
+						class="ion-color ion-color-dark ios button button-clear ion-activatable ion-focusable hydrated">
+					<div _ngcontent-ndy-c21="" class="icon-button">
+						<tf-icon _ngcontent-ndy-c21="" name="fa-bookmark"
+							_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+							class="fal fa-bookmark"></i><!----></tf-icon>
+					</div>
+					</ion-button></li>
+				<li _ngcontent-ndy-c21=""><ion-button _ngcontent-ndy-c21=""
+						color="dark" fill="clear" routerlink="/main/search" tabindex="0"
+						class="ion-color ion-color-dark ios button button-clear ion-activatable ion-focusable hydrated">
+					<div _ngcontent-ndy-c21="" class="icon-button">
+						<tf-icon _ngcontent-ndy-c21="" name="fa-search" _nghost-ndy-c3=""><!---->
+						<i _ngcontent-ndy-c3="" class="fal fa-search"></i><!----></tf-icon>
+					</div>
+					</ion-button></li>
+				<li _ngcontent-ndy-c21=""><ion-button _ngcontent-ndy-c21=""
+						color="dark" fill="clear" routerlink="/main/notices" tabindex="0"
+						class="ion-color ion-color-dark ios button button-clear ion-activatable ion-focusable hydrated">
+					<div _ngcontent-ndy-c21="" class="icon-button">
+						<tf-icon _ngcontent-ndy-c21="" name="fa-bell" _nghost-ndy-c3=""><!---->
+						<i _ngcontent-ndy-c3="" class="fal fa-bell"></i><!----></tf-icon>
+					</div>
+					<!----></ion-button></li>
+				<li _ngcontent-ndy-c21=""><ion-button _ngcontent-ndy-c21=""
+						color="dark" fill="clear" routerlink="/main/chat" tabindex="0"
+						class="ion-color ion-color-dark ios button button-clear ion-activatable ion-focusable hydrated">
+					<div _ngcontent-ndy-c21="" class="icon-button">
+						<tf-icon _ngcontent-ndy-c21="" name="fa-comments"
+							_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+							class="fal fa-comments"></i><!----></tf-icon>
+					</div>
+					<!----></ion-button></li>
+				<li _ngcontent-ndy-c21=""><ion-button _ngcontent-ndy-c21=""
+						class="profile ios button button-clear ion-activatable ion-focusable hydrated"
+						fill="clear" routerlink="/main/global" tabindex="0">
+					<tf-avatar _ngcontent-ndy-c21="" shape="circle" _nghost-ndy-c4=""><!----><!---->
+					<span _ngcontent-ndy-c4=""><img _ngcontent-ndy-c4=""
+						class="avatar avatar-size-medium avatar-shape-circle"
+						src="./images/icons/no-avatar.svg"
+						alt="cDt17634Zp9eT9cokUm52REL4IfLajO0"></span></tf-avatar></ion-button></li>
+			</ul>
+		</nav>
+	</div>
+	</main-globalnav></ion-header><!----> <ion-split-pane _ngcontent-ndy-c0="" contentid="main-content"
+		id="main-split" when="md"
+		class="ios split-pane-ios hydrated split-pane-visible">
+	<ion-menu _ngcontent-ndy-c0="" contentid="main-content" id="left-menu"
+		side="start" role="complementary"
+		class="ios menu-type-reveal menu-enabled menu-side-start hydrated split-pane-side menu-pane-visible">
+	<ion-content _ngcontent-ndy-c0="" class="ios hydrated"
+		style="--offset-top:0px; --offset-bottom:0px;"><!----> <tf-timeline-menu
+		_nghost-ndy-c22=""> <ion-content
+		_ngcontent-ndy-c22="" class="hide-scrollbar ios hydrated"
+		style="--offset-top:0px; --offset-bottom:0px;">
+	<div _ngcontent-ndy-c22="">
+		<ul _ngcontent-ndy-c22="" class="list">
+			<!---->
+			<li _ngcontent-ndy-c22="" class="item tab-top"><span
+				_ngcontent-ndy-c22="" class="label">総合</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item tab-digest"><span
+				_ngcontent-ndy-c22="" class="label">ダイジェスト</span> <!----> <ion-badge
+					_ngcontent-ndy-c22="" class="badge ios hydrated">3</ion-badge></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">イベント</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">トレンド</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">デザイン</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">Web / フロントエンド</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">モバイル</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">クラウド / バックエンド</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">ネットワーク / セキュリティ</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item active"><span
+				_ngcontent-ndy-c22="" class="label">プログラミング</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">マーケティング</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">IoT / ガジェット</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">AI / ビッグデータ</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">VR / AR</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">フィンテック</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">スタートアップ / イノベーション</span> <!----></li>
+			<li _ngcontent-ndy-c22="" class="item"><span
+				_ngcontent-ndy-c22="" class="label">DevOps / アジャイル</span> <!----></li>
+		</ul>
+		<div _ngcontent-ndy-c22="" class="menu-footer-wrapper">
+			<div _ngcontent-ndy-c22="" class="menu-footer">
+				<a _ngcontent-ndy-c22="" class="tabmanage-button"><span
+					_ngcontent-ndy-c22="" class="label">タブの管理</span> <tf-icon
+						_ngcontent-ndy-c22="" name="fa-cog" type="solid" _nghost-ndy-c3=""><!---->
+					<i _ngcontent-ndy-c3="" class="fas fa-cog"></i><!----></tf-icon></a>
+			</div>
+		</div>
+	</div>
+	</ion-content></tf-timeline-menu></ion-content></ion-menu><!----> <ion-menu _ngcontent-ndy-c0=""
+		class="split-pane-side menu-pane-visible ios menu-type-reveal menu-enabled menu-side-end hydrated"
+		contentid="main-content" id="right-menu" side="end"
+		role="complementary"> <ion-content _ngcontent-ndy-c0=""
+		class="ios hydrated" style="--offset-top:0px; --offset-bottom:0px;"><!---->
+	<tf-sidebar _nghost-ndy-c23="">
+	<div _ngcontent-ndy-c23="" class="sidebar has-app-link">
+		<ion-content _ngcontent-ndy-c23="" class="hide-scrollbar ios hydrated"
+			style="--offset-top:0px; --offset-bottom:0px;">
+		<div _ngcontent-ndy-c23="" class="card">
+			<div _ngcontent-ndy-c23="" class="card-header">本日のランキング</div>
+			<div _ngcontent-ndy-c23="" class="card-content">
+				<!---->
+				<tf-entry-list _ngcontent-ndy-c23=""
+					class="latest-border-none small-entry" defaultmode="sidebar"
+					type="ranking" _nghost-ndy-c20=""><!----> <tf-entry-listitem
+					_ngcontent-ndy-c20="" _nghost-ndy-c18="" style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce43f0632013a653c238390">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.businessinsider.com/tesla-problems-getting-worse-2019-5"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.businessinsider.com/tesla-problems-getting-worse-2019-5">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Elon
+									MuskがTeslaで出血を止めたことは何もない</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">1</span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce422ed484fae752eab5816">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://jalopnik.com/the-legal-argument-that-could-destroy-uber-1834790506"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://jalopnik.com/the-legal-argument-that-could-destroy-uber-1834790506">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">ユーバーを破壊する可能性がある法的議論</h1>
+								<!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 81px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce3f1ade63a1cb01c1f35d9">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.businessinsider.com/tesla-stock-price-morgan-stanley-bear-price-target-lowered-10-2019-5"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.businessinsider.com/tesla-stock-price-morgan-stanley-bear-price-target-lowered-10-2019-5">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Morgan
+									Stanleyによると、Teslaは最悪のシナリオで1株あたり10ドルの価値があるという。</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce422eb484fae752eab5811">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://google.github.io/styleguide/htmlcssguide.html#Optional_Tags">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Google
+									HTML / CSSスタイルガイド</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">9</span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count">1</span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce43808af77e86436982e18">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.macrumors.com/2019/05/21/apple-debuts-new-8-core-macbook-pro/"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.macrumors.com/2019/05/21/apple-debuts-new-8-core-macbook-pro/">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">アップル、最新のキーボードを搭載した新しい8コアMacBook
+									Proを発表</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce43f0932013a653c2383a3">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="http://nobi.com/entry-1239.html"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="http://nobi.com/entry-1239.html"> <!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">20 CDs
+									curated by Steve Jobs &amp; the iPod team</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 81px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce430fee840e6d633dd3333">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://techcrunch.com/2019/05/21/apple-announces-new-macbook-pros-with-more-powerful-processors-and-yes-updated-keyboards/"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://techcrunch.com/2019/05/21/apple-announces-new-macbook-pros-with-more-powerful-processors-and-yes-updated-keyboards/">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Apple、キーボードの修正、あー、そしてもっと強力なプロセッサを搭載した新しいMacBook
+									Proを発表 - TechCrunch</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 81px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce406c3555db35024f1b10b">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.businessinsider.com/tesla-junk-bonds-sink-to-record-low-amid-stock-plunge-2019-5"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.businessinsider.com/tesla-junk-bonds-sink-to-record-low-amid-stock-plunge-2019-5">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">テスラの投資家は会社の負債を保持するために史上最大のリターンを要求しています</h1>
+								<!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce3e3a66c054d8d17ba8cc3">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.fastcompany.com/90352504/the-ipod-of-vr-is-here"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.fastcompany.com/90352504/the-ipod-of-vr-is-here">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">VRのiPodはここにあります、そして、あなたはそれを試すべきです</h1>
+								<!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count"></span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 69px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-sidebar theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce43800af77e86436982e08">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://blogs.windows.com/windowsexperience/2019/05/21/how-to-get-the-windows-10-may-2019-update/"
+							style="width: 50px; height: 50px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://blogs.windows.com/windowsexperience/2019/05/21/how-to-get-the-windows-10-may-2019-update/">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Windows
+									10 May 2019アップデートを入手する方法</h1> <!---->
+							</a>
+							<!---->
+							<!---->
+							<!---->
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18="" class="action-buttons">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">1</span>
+										<!---->
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon icon-only"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c26="" class="count"></span>
+										<!---->
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem></tf-entry-list>
+			</div>
+		</div>
+		</ion-content>
+	</div>
+	</tf-sidebar></ion-content></ion-menu> <ion-router-outlet _ngcontent-ndy-c0="" id="main-content"
+		class="hydrated menu-content menu-content-reveal split-pane-main">
+	<ng-component _nghost-ndy-c1="" class="ion-page" style="z-index: 101;">
+	<ion-tabs _ngcontent-ndy-c1="" class="main-page-tab"
+		selectedindex="selectedTabIndex" tabslayout="icon-top"
+		_nghost-ndy-c2="">
+	<div _ngcontent-ndy-c2="" class="tabs-inner">
+		<ion-router-outlet _ngcontent-ndy-c2="" tabs="true" class="hydrated">
+		<ng-component _nghost-ndy-c5="" class="ion-page" style="z-index: 101;">
+		<ion-content _ngcontent-ndy-c5=""
+			class="timeline has-slides-content ios hydrated"
+			style="--offset-top:0px; --offset-bottom:0px;">
+		<div _ngcontent-ndy-c5="" class="content-header hidden">
+			<div _ngcontent-ndy-c5="" class="content-header-main">
+				<tf-tabs _ngcontent-ndy-c5="" _nghost-ndy-c6="">
+				<div _ngcontent-ndy-c6="" class="h-scroll no-scroll">
+					<div _ngcontent-ndy-c6="" class="h-scroll-wrap">
+						<!---->
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="" class="tab-top">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> 総合 <!----> <!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="" class="tab-digest">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> ダイジェスト <!---->
+								<!----> <ion-badge _ngcontent-ndy-c7="" color="primary"
+									class="ion-color ion-color-primary ios hydrated">3</ion-badge></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> イベント <!----> <!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> トレンド <!----> <!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> デザイン <!----> <!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> Web / フロントエンド
+								<!----> <!---->
+							</label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> モバイル <!----> <!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> クラウド / バックエンド
+								<!----> <!---->
+							</label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> ネットワーク /
+								セキュリティ <!----> <!---->
+							</label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button selected"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> プログラミング <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> マーケティング <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> IoT / ガジェット <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> AI / ビッグデータ <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> VR / AR <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> フィンテック <!---->
+								<!----></label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> スタートアップ /
+								イノベーション <!----> <!---->
+							</label>
+						</button>
+						</tf-tab>
+						<tf-tab _ngcontent-ndy-c5="" _nghost-ndy-c7="">
+						<button _ngcontent-ndy-c7="" class="tab-header-button last"
+							type="button">
+							<label _ngcontent-ndy-c7="" class="label"> DevOps / アジャイル
+								<!----> <!---->
+							</label>
+						</button>
+						</tf-tab>
+					</div>
+				</div>
+				</tf-tabs>
+			</div>
+			<tf-progress-bar _ngcontent-ndy-c5="" _nghost-ndy-c8="">
+			<div _ngcontent-ndy-c8="" class="bar theme-dark"
+				style="width: 100%; height: 2px; display: none;">
+				<!---->
+				<div _ngcontent-ndy-c8="" class="edge theme-dark"
+					style="width: 2px; height: 2px;"></div>
+			</div>
+			</tf-progress-bar>
+		</div>
+		<ion-slides _ngcontent-ndy-c5=""
+			class="no-header swiper-no-swiping ios slides-ios swiper-container hydrated swiper-container-horizontal">
+		<div class="swiper-wrapper"
+			style="transform: translate3d(-7605px, 0px, 0px); transition-duration: 0ms;">
+			<!---->
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated swiper-slide-prev"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated swiper-slide-active"
+				style="width: 845px;"><!----> <ion-content
+				_ngcontent-ndy-c5="" scrolly="true"
+				data-tab-id="000000000000000000000008" class="ios hydrated"
+				style="--offset-top:0px; --offset-bottom:0px;"> <ion-refresher
+				_ngcontent-ndy-c5="" pull-max="180" slot="fixed"
+				class="ios refresher-ios hydrated"> <ion-refresher-content
+				_ngcontent-ndy-c5="" pullingicon="" refreshingspinner="bubbles"
+				class="ios hydrated">
+			<div _ngcontent-ndy-c5="" class="refresher-pulling">
+				<div _ngcontent-ndy-c5="" class="refresher-pulling-icon">
+					<tf-icon _ngcontent-ndy-c5="" name="fa-caret-down" type="solid"
+						_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+						class="fas fa-caret-down"></i><!----></tf-icon>
+				</div>
+			</div>
+			<div class="refresher-pulling"></div>
+			<div class="refresher-refreshing">
+				<div class="refresher-refreshing-icon">
+					<ion-spinner class="ios spinner-bubbles hydrated"></ion-spinner>
+				</div>
+			</div>
+			</ion-refresher-content></ion-refresher>
+			<div _ngcontent-ndy-c5="" class="slide-container">
+				<!---->
+				<div _ngcontent-ndy-c5="" class="title" padding="">
+					<h3 _ngcontent-ndy-c5="" class="title-text">プログラミング</h3>
+					<!---->
+					<!---->
+					<!---->
+					<a _ngcontent-ndy-c5="" class="settings-button" href="#"><tf-icon
+							_ngcontent-ndy-c5="" name="fa-sliders-h" type="solid"
+							_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+							class="fas fa-sliders-h"></i><!----></tf-icon></a>
+					<!---->
+				</div>
+				<tf-timeline-tab-content _ngcontent-ndy-c5="" _nghost-ndy-c10=""><!----><!----><!---->
+				<tf-timeline-tab-content-list-entry _ngcontent-ndy-c10=""
+					_nghost-ndy-c15=""><!----> <tf-entry-listitem
+					_ngcontent-ndy-c15="" mode="hot" _nghost-ndy-c18=""
+					style="min-height: 298px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-hot theme-default direction-horizontal overlay no-thumbnail title-line-clamp description-line-clamp"
+					id="entry-5ce48c673517f12e5a37a3db">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: url(&quot;https://res.cloudinary.com/techfeed/image/fetch/w_828,h_526,c_fill,q_70/https%3A%2F%2Fenterprisezine.jp%2Fstatic%2Fimages%2Farticle%2F12041%2F12041_01.png&quot;);">
+						<!---->
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://enterprisezine.jp/article/detail/12041"> <!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">マクニカが契約した
+									JFrog社CEOに訊く、DevOps製品のコンセプト「リキッド・ソフトウェア」</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									マクニカネットワークスが契約締結したDevOpsのツール企業、JFrogのCEOシオミ・ベン・ハイム氏が来日。同社が提供するDevOps製…
+									<!---->
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										enterprisezine.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce48c673517f12e5a37a3db"> 26分前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">DevOps</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">GitHub</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Docker</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+						</div>
+					</div>
+					<!---->
+					<section _ngcontent-ndy-c18="" class="reactions">
+						<div _ngcontent-ndy-c18=""
+							class="action-buttons show-button-labels">
+							<!---->
+							<!---->
+							<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+								_nghost-ndy-c24=""><!---->
+							<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+								class="action-button size-medium theme-default">
+								<!---->
+								<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+								<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+								<!---->
+								<!---->
+								<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+							</button>
+							</tf-pin-button>
+							<!---->
+							<tf-comment-button _ngcontent-ndy-c18=""
+								class="action-button comment" _nghost-ndy-c26=""><!---->
+							<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+								class="action-button size-medium theme-default">
+								<!---->
+								<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+								<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+								<!---->
+								<!---->
+								<span _ngcontent-ndy-c26="" class="label">シェア</span>
+							</button>
+							</tf-comment-button>
+						</div>
+					</section>
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem><!----> <tf-entry-list _ngcontent-ndy-c15="" _nghost-ndy-c20=""
+					style="min-height: 0px;"><!----> <tf-entry-listitem
+					_ngcontent-ndy-c20="" _nghost-ndy-c18="" style="min-height: 188px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce48c6c3517f12e5a37a3de">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://crypto.watch.impress.co.jp/docs/news/1185748.html"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: visible;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://crypto.watch.impress.co.jp/docs/news/1185748.html">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Enjin、ブロックチェーン技術を導入した独自のマイクラサーバーのクローズβテストを開始
+									〜ゲーム内でウォレット連携しERC-1155トークンのトレードが可能</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									Ethereumをベースにゲームとブロックチェーンのエコシステム構築を目指すプロジェクトEnjinは5月18日、Java用のブロックチェー…
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										crypto.watch.impress.co.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce48c6c3517f12e5a37a3de"> 26分前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">フィンテック</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Java</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 170px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce4774916d7b04f5245fc12">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://webtan.impress.co.jp/e/2019/05/22/32304"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://webtan.impress.co.jp/e/2019/05/22/32304"> <!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">CSSはレイアウトの専門家。HTMLでは表現できないものを実現する【第7回】</h1>
+								<!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									HTMLでは複雑なレイアウトはできません。そこで助けてくれるのが「CSS」ですが、CSSって一体何なのか、どういう働きをしている…
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--A">
+									<span _ngcontent-ndy-c18="" class="rank__type">A</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										webtan.impress.co.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce4774916d7b04f5245fc12"> 2時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">CSS</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">HTML</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">JavaScript</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">4</span>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 174px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce37335c6abf82264dea822">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://jser.info/2019/05/21/typescript-3.5-rcfirefox-devtoolsaccessibility-insights/"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://jser.info/2019/05/21/typescript-3.5-rcfirefox-devtoolsaccessibility-insights/">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">2019-05-21のJS:
+									TypeScript 3.5 RC、Firefox DevTools改善、Accessibility
+									Insights(アクセシビリティテスト)</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									JSer.info #436 - TypeScript 3.5 RCがリリースされました。
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										jser.info
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce37335c6abf82264dea822"> 8時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">AltJS</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">JavaScript</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Firefox</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">3</span>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 170px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce3650e8fc7b9005ff014da">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://codezine.jp/article/detail/11528"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://codezine.jp/article/detail/11528"> <!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">Android
+									Studio 3.3で自然な画面遷移を実装する</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									ナビゲーションエディタの使い方を覚えることで、ナビゲーションアーキテクチャコンポーネントをGUIから設定することができま…
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										codezine.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce3650e8fc7b9005ff014da"> 9時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Android</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Gradle</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">1</span>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 157px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce1fe799fd9c18d54290c65">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://gihyo.jp/book/pickup/2019/0033"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://gihyo.jp/book/pickup/2019/0033"> <!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">ソフトウェアテストの作業工程にマインドマップを応用し，より創造的なテストに！</h1>
+								<!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									本稿が掲載される時期は，ソフトウェア開発の現場にも新人さんや業界初級者が配属される季節ですね。
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										gihyo.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce1fe799fd9c18d54290c65"> 10時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">ソフトウェアテスト</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Excel</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 157px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce1fe739fd9c18d54290c46">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://qiita.com/KoyanagiHitoshi/items/82ef910432552d0a4553"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://qiita.com/KoyanagiHitoshi/items/82ef910432552d0a4553">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">アニメーションで学ぶVim入門
+									～精選10機能～</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										qiita.com
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce1fe739fd9c18d54290c46"> 10時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Vim</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 173px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce406c7555db35024f1b11b">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://www.toptal.com/opencv/object-detection-opencv-swift"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://www.toptal.com/opencv/object-detection-opencv-swift">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">OpenCVとSwiftを使ったオブジェクト検出</h1>
+								<!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									Swiftは素晴らしいですが、アプリケーションがC
+									++を使って書かれたライブラリに依存しているとしたらどうでしょうか。幸いなことにObjective-C
+									++は、この日を節約するためにここにあります。ブリッジとしてラッパークラスを使用することで、OpenCVのC
+									++コードとSwift（OpenCV
+									Swift？）を統合し、OpenCVを使用してToptalロゴを認識するアプリを作成します。
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="title-translated">
+									<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+											_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+											_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+											class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+										_ngcontent-ndy-c18="">原文</span></a>
+								</div>
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										toptal.com
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce406c7555db35024f1b11b"> 10時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">画像処理</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">C++</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Swift</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+									<div _ngcontent-ndy-c18=""
+										class="visible-small-entry title-translated">
+										<a _ngcontent-ndy-c18="" class="translate-button"><tf-icon
+												_ngcontent-ndy-c18="" name="fa-exchange-alt" type="regular"
+												_nghost-ndy-c3=""><!----> <i _ngcontent-ndy-c3=""
+												class="far fa-exchange-alt"></i><!----></tf-icon> <!----> <!----> <span
+											_ngcontent-ndy-c18="">原文</span></a>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 188px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce34ff432d8b0455784449f">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="https://coliss.com/articles/build-websites/operation/css/sticky-hero-section.html"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="https://coliss.com/articles/build-websites/operation/css/sticky-hero-section.html">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">[CSS]
+									position: sticky;を使用して、スクロール時に画像をズームさせるページのレイアウトを実装する方法</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									CSSのposition: sticky;を使用して、スティッキーヒーローセクションを実装する方法について紹介します。
+									スティッキーヒーロ…
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										coliss.com
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce34ff432d8b0455784449f"> 10時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">CSS</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">JavaScript</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">4</span>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem> <tf-entry-listitem _ngcontent-ndy-c20="" _nghost-ndy-c18=""
+					style="min-height: 170px;"><!---->
+				<article _ngcontent-ndy-c18=""
+					class="entry type-article mode-default theme-default direction-horizontal title-line-clamp description-line-clamp"
+					id="entry-5ce333d7ef87991b4d8900b9">
+					<!---->
+					<div _ngcontent-ndy-c18="" class="entry-container"
+						style="background-image: none;">
+						<!---->
+						<a _ngcontent-ndy-c18="" class="entry-thumbnail active-effect"
+							href="http://febc-yamamoto.hatenablog.jp/entry/2019/05/20/181436"
+							style="width: 120px; height: 120px;"> <!----> <ion-img
+								_ngcontent-ndy-c18="" alt="" style="visibility: hidden;"
+								class="ios hydrated"></ion-img> <!---->
+						</a>
+						<div _ngcontent-ndy-c18="" class="entry-content">
+							<!---->
+							<a _ngcontent-ndy-c18=""
+								class="entry-content-main text-link-button active-effect"
+								href="http://febc-yamamoto.hatenablog.jp/entry/2019/05/20/181436">
+								<!---->
+								<h1 _ngcontent-ndy-c18="" class="entry-title-text">k3os on
+									さくらのクラウド</h1> <!---->
+								<p _ngcontent-ndy-c18="" class="entry-description">
+									k3osを試してみましたのでメモ残しておきます。 k3osって?
+									kubernetesに特化した軽量OSで、軽量kubernetesディストリビュージ…
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-read-more">もっと読む</span>
+								</p>
+							</a>
+							<!---->
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-meta">
+								<!---->
+								<div _ngcontent-ndy-c18="" class="rank rank--B">
+									<span _ngcontent-ndy-c18="" class="rank__type">B</span><span
+										_ngcontent-ndy-c18="" class="rank__text">RANK</span>
+								</div>
+								<!---->
+								<!---->
+								<!---->
+								<!---->
+								<div _ngcontent-ndy-c18="" class="entry-meta-text-block">
+									<!---->
+									<span _ngcontent-ndy-c18="" class="entry-domain"> <!---->
+										febc-yamamoto.hatenablog.jp
+									</span>
+									<!---->
+									<!---->
+									<div _ngcontent-ndy-c18="" class="entry-date-text">
+										<!---->
+										<a _ngcontent-ndy-c18=""
+											href="../entries/5ce333d7ef87991b4d8900b9"> 12時間前 にランクアップ
+										</a>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<!---->
+							<div _ngcontent-ndy-c18="" class="entry-footer">
+								<!---->
+								<!---->
+								<ul _ngcontent-ndy-c18="" class="entry-related-channels">
+									<!---->
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">Docker</span>
+											</div></a></li>
+									<li _ngcontent-ndy-c18=""><a _ngcontent-ndy-c18=""
+										class="related-channel"><div _ngcontent-ndy-c18=""
+												class="ion-chip">
+												<span _ngcontent-ndy-c18="" class="ion-label">GitHub</span>
+											</div></a></li>
+								</ul>
+							</div>
+							<!---->
+							<section _ngcontent-ndy-c18="" class="reactions">
+								<div _ngcontent-ndy-c18=""
+									class="action-buttons show-button-labels">
+									<!---->
+									<!---->
+									<tf-pin-button _ngcontent-ndy-c18="" class="action-button pin"
+										_nghost-ndy-c24=""><!---->
+									<button _ngcontent-ndy-c24="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default has-count">
+										<!---->
+										<tf-icon _ngcontent-ndy-c24="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-bookmark"></i><!----></tf-icon>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="count">1</span>
+										<!---->
+										<span _ngcontent-ndy-c24="" class="label">あとで読む</span>
+									</button>
+									</tf-pin-button>
+									<!---->
+									<tf-comment-button _ngcontent-ndy-c18=""
+										class="action-button comment" _nghost-ndy-c26=""><!---->
+									<button _ngcontent-ndy-c26="" rel="nofollow" type="button"
+										class="action-button size-medium theme-default">
+										<!---->
+										<tf-icon _ngcontent-ndy-c26="" class="icon" _nghost-ndy-c3=""><!---->
+										<i _ngcontent-ndy-c3="" class="fas fa-share"></i><!----></tf-icon>
+										<!---->
+										<!---->
+										<span _ngcontent-ndy-c26="" class="label">シェア</span>
+									</button>
+									</tf-comment-button>
+									<!---->
+								</div>
+							</section>
+						</div>
+					</div>
+					<!---->
+					<!---->
+					<!---->
+				</article>
+				</tf-entry-listitem></tf-entry-list></tf-timeline-tab-content-list-entry><!----><!----></tf-timeline-tab-content>
+				<!---->
+			</div>
+			<!----></ion-content></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated swiper-slide-next"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+			<ion-slide _ngcontent-ndy-c5=""
+				class="ios swiper-slide swiper-zoom-container hydrated"
+				style="width: 845px;"><!----></ion-slide>
+		</div>
+		</ion-slides></ion-content></ng-component></ion-router-outlet>
+	</div>
+	<ion-tab-bar _ngcontent-ndy-c1="" slot="bottom" role="tablist"
+		class="ios hydrated"><!----> <ion-tab-button
+		_ngcontent-ndy-c1="" role="tab" id="tab-button-realtime"
+		class="ios tab-layout-icon-top ion-activatable hydrated tab-selected"
+		aria-selected="true"><!----> <tf-icon
+		_ngcontent-ndy-c1="" _nghost-ndy-c3=""><!----><!---->
+	<div _ngcontent-ndy-c3="" class="icon-inner">
+		<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink" class="s-ion-icon">
+			<g id="Symbols" stroke="none" stroke-width="1">
+			<g id="logo">
+			<g id="Group-30">
+			<g id="Group">
+			<polygon id="Fill-27" points="15 8 8 8 8 15"></polygon>
+			<polygon id="Fill-24"
+				points="23 0.000924418721 0.00138662808 0 0.00138662808 0.000924418721 0 0.000924418721 0.00138662808 23 4.424268 18.5771186 4.424268 4.42334358 18.5775808 4.42334358"></polygon></g></g></g></g></svg>
+	</div>
+	</tf-icon><!----><!----> <ion-badge _ngcontent-ndy-c1="" class="ios hydrated"></ion-badge></ion-tab-button>
+	<ion-tab-button _ngcontent-ndy-c1="" role="tab"
+		id="tab-button-bookmarks"
+		class="ios tab-layout-icon-top ion-activatable hydrated"><!---->
+	<tf-icon _ngcontent-ndy-c1="" _nghost-ndy-c3=""><!----> <i
+		_ngcontent-ndy-c3="" class="fal fa-bookmark"></i><!----></tf-icon><!----><!---->
+	<ion-badge _ngcontent-ndy-c1="" class="ios hydrated"></ion-badge></ion-tab-button> <ion-tab-button
+		_ngcontent-ndy-c1="" role="tab" id="tab-button-search"
+		class="ios tab-layout-icon-top ion-activatable hydrated"><!---->
+	<tf-icon _ngcontent-ndy-c1="" _nghost-ndy-c3=""><!----> <i
+		_ngcontent-ndy-c3="" class="fal fa-search"></i><!----></tf-icon><!----><!----> <ion-badge
+		_ngcontent-ndy-c1="" class="ios hydrated"></ion-badge></ion-tab-button> <ion-tab-button
+		_ngcontent-ndy-c1="" role="tab" id="tab-button-notices"
+		class="ios tab-layout-icon-top ion-activatable hydrated"><!---->
+	<tf-icon _ngcontent-ndy-c1="" _nghost-ndy-c3=""><!----> <i
+		_ngcontent-ndy-c3="" class="fal fa-bell"></i><!----></tf-icon><!----><!----></ion-tab-button> <ion-tab-button
+		_ngcontent-ndy-c1="" role="tab" id="tab-button-chat"
+		class="ios tab-layout-icon-top ion-activatable hydrated"><!---->
+	<tf-icon _ngcontent-ndy-c1="" _nghost-ndy-c3=""><!----> <i
+		_ngcontent-ndy-c3="" class="fal fa-comments"></i><!----></tf-icon><!----><!----></ion-tab-button>
+	<ion-tab-button _ngcontent-ndy-c1="" role="tab" id="tab-button-global"
+		class="ios tab-layout-icon-top ion-activatable hydrated"><!----><!---->
+	<tf-avatar _ngcontent-ndy-c1="" shape="circle" _nghost-ndy-c4=""><!----><!---->
+	<span _ngcontent-ndy-c4=""><img _ngcontent-ndy-c4=""
+		class="avatar avatar-size-medium avatar-shape-circle"
+		src="./images/icons/no-avatar.svg"
+		alt="cDt17634Zp9eT9cokUm52REL4IfLajO0"></span></tf-avatar><!----> <ion-badge
+		_ngcontent-ndy-c1="" class="ios hydrated"></ion-badge></ion-tab-button></ion-tab-bar></ion-tabs></ng-component></ion-router-outlet></ion-split-pane> <ion-popover
+		class="sc-ion-popover-ios-h sc-ion-popover-ios-s tuto-translate-error tutorials popover-ios popover-full popover-center ios hydrated"
+		id="ion-overlay-1" aria-modal="true" no-router=""
+		style="z-index: 20001;"> <ion-backdrop
+		class="sc-ion-popover-ios ios hydrated" tabindex="-1"
+		style="opacity: 0.08;"></ion-backdrop>
+	<div class="popover-wrapper sc-ion-popover-ios" style="opacity: 1;">
+		<div class="popover-arrow sc-ion-popover-ios"
+			style="display: none; top: -1.63022px; left: 950px;"></div>
+		<div class="popover-content sc-ion-popover-ios"
+			style="bottom: 5%; top: 7.36978px; left: 810px; transform-origin: left top;">
+			<tf-tutorial _nghost-ndy-c28=""
+				class="popover-viewport sc-ion-popover-ios">
+			<section _ngcontent-ndy-c28="" class="tutorial tuto-translate-error">
+				<!---->
+				<header _ngcontent-ndy-c28="" class="tutorial-head">
+					<h2 _ngcontent-ndy-c28="" class="title">翻訳記事の表示がエラー（400）になる件について</h2>
+				</header>
+				<div _ngcontent-ndy-c28="" class="tutorial-content">
+					<!---->
+					<!---->
+					<div _ngcontent-ndy-c28="" class="content">
+						<p>翻訳サービス側の問題により、掲題の現象が多数報告されています。ご迷惑をおかけして申し訳ございません🙇</p>
+						<p class="ios-app-only">
+							iOSアプリをご利用の方は、TechFeed側で対処済みで、特に作業は不要です。もしエラーが再発した場合には、どうかフィードバックをお願いいたします。
+						</p>
+						<p class="android-app-only">
+							Androidアプリをご利用の方は、Google Chromeの設定で、Google翻訳関連のクッキーを削除する必要があります。
+							設定方法は<a
+								href="https://medium.com/@techfeed/translate-error-2d9185cecd5"
+								target="_blank">こちら</a>
+						</p>
+						<p class="web-only">
+							Webアプリをご利用の方は、お使いのブラウザの設定で、Google翻訳関連のクッキーを削除する必要があります。 設定方法は<a
+								href="https://medium.com/@techfeed/translate-error-2d9185cecd5"
+								target="_blank">こちら</a>
+						</p>
+					</div>
+					<!---->
+					<!---->
+					<figure _ngcontent-ndy-c28="" class="figure">
+						<img _ngcontent-ndy-c28="" alt="" class="image"
+							src="images/tutorials/tuto-translate-error/translate-error.png"
+							style="height: 100px;">
+						<!---->
+					</figure>
+					<!---->
+					<tf-progress-bar _ngcontent-ndy-c28="" theme="dark"
+						_nghost-ndy-c8="">
+					<div _ngcontent-ndy-c8="" class="bar theme-dark"
+						style="height: 2px; display: none;">
+						<!---->
+						<div _ngcontent-ndy-c8="" class="edge theme-dark"
+							style="width: 2px; height: 2px;"></div>
+					</div>
+					</tf-progress-bar>
+				</div>
+				<!---->
+				<div _ngcontent-ndy-c28="" class="tutorial-footer">
+					<!---->
+					<ion-button _ngcontent-ndy-c28=""
+						class="button ion-color ion-color-primary ios button-small button-solid ion-activatable ion-focusable hydrated"
+						color="primary" size="small" fill="solid"> 完了 </ion-button>
+				</div>
+			</section>
+			</tf-tutorial>
+		</div>
+	</div>
+	</ion-popover></ion-app></app-root>
+	<div class="browser-not-support" id="attention-dialog">
+		<div class="browser-not-support__container">
+			<a href="#" class="browser-not-support__container__close-btn"
+				onclick="document.getElementById('attention-dialog').style.display = 'none'; return false;">×</a>
+			<div class="not-support-default">
+				<p>
+					<strong>お使いのブラウザはサポートされていません。TechFeedを利用するには、ブラウザを更新する必要があります。</strong>
+				</p>
+				<p>以下のいずれかのブラウザの最新バージョンをご利用ください。</p>
+				<ul>
+					<li><a href="https://www.google.co.jp/chrome" target="_blank">Google
+							Chrome</a></li>
+					<li><a href="https://www.mozilla.org/firefox" target="_blank">Firefox</a></li>
+					<li><a href="https://www.apple.com/jp/safari" target="_blank">Safari</a></li>
+					<li><a href="https://www.microsoft.com/microsoft-edge"
+						target="_blank">Microsoft Edge</a></li>
+					<li><a href="https://www.opera.com" target="_blank">Opera</a></li>
+				</ul>
+				<small>※ Internet Explorer はサポート対象外です。Microsoft
+					Edgeをご利用ください。</small>
+			</div>
+			<div class="not-support-mobile">
+				<p>
+					<strong>お使いのブラウザはサポートされていません。TechFeedを利用するには、以下のブラウザをご利用ください。</strong>
+				</p>
+				<dl>
+					<dt>iOS:</dt>
+					<dd>Safari 9以上（iOS 9.2以上が必要）</dd>
+					<dt>Android:</dt>
+					<dd>
+						最新バージョンの<a href="https://www.google.co.jp/chrome" target="_blank">Google
+							Chrome</a>
+					</dd>
+				</dl>
+			</div>
+			<p class="browser-not-support__container__footer">
+				<a href="#"
+					onclick="document.getElementById('attention-dialog').style.display = 'none'; return false;">閉じる</a>
+			</p>
+		</div>
+	</div>
+	<footer class="footer">
+		<ul class="site-footer-links">
+			<li><a href="/channels">トピック一覧</a></li>
+			<li><a href="https://medium.com/@techfeed" target="_blank">ブログ</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="/feedback">フィードバック</a></li>
+			<li><a href="/terms">利用規約</a></li>
+			<li><a href="/privacy">プライバシーポリシー</a></li>
+			<li><a href="/guidelines">投稿ガイドライン</a></li>
+			<li><a href="/thanks">スペシャルサンクス</a></li>
+			<li><a href="https://techfeed.co.jp/" target="_blank">運営企業について</a></li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="runtime.c08af23471b01930d336.js"></script>
+	<script type="text/javascript" src="polyfills.c04d2b611fecb916ac9a.js"></script>
+	<script type="text/javascript" src="scripts.2a22d76cdfe0415a0f51.js"></script>
+	<script type="text/javascript" src="vendor.9abbb698bd6129e57460.js"></script>
+	<script type="text/javascript" src="main.1de0eb6ff737439d2b83.js"></script>
+	<ion-menu-controller class="hydrated"></ion-menu-controller>
+	<ion-popover-controller class="hydrated"></ion-popover-controller>
+</body>
+</html>
