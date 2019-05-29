@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body id="ITWS" class=" " style="background-color: rgb(0, 0, 0);">
+
+	<script>
+		// JavaScript用Facebook SDK
+
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId : '1724827814406155',
+				xfbml : true,
+				version : 'v2.9'
+			});
+			FB.AppEvents.logPageView();
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {
+				return;
+			}
+			js = d.createElement(s);
+			js.id = id;
+			js.src = "//connect.facebook.net/ja_JP/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
+	<script type="text/javascript">
+		var dcl_start = new Date();
+		attachBodyClass();
+		function masterChannel() {
+			return 'ait';
+		}
+		function masterType() {
+			return 'top';
+		}
+		function prFlag() {
+			return '';
+		}
+		function spFlag() {
+			return '';
+		}
+		(function() {
+			if (getUrl()['domain'].match(/(preview|localhost)/))
+				document.write('<div id="PATHDEBUG">masterChannel = <strong>'
+						+ masterChannel() + '</strong> / masterType = <strong>'
+						+ masterType() + '</strong> / smartPhone = <strong>'
+						+ spFlag() + '</strong></div>');
+			return true;
+		})();
+	</script>
+	<!--ITWS-->
+
+
+	<div id="ITWS">
+		<script>
+			adRequest({
+				'position' : 'ITWS'
+			});
+		</script>
+		<script
+			src="//dlv.itmedia.jp/adsv/v1?posall=ITWS&amp;oe=shift_jis&amp;nurl=https%3A//www.atmarkit.co.jp/&amp;fp=root%2FITmedia%2Fait%2Ftop&amp;word=%EF%BC%A0IT%2C%E8%A7%A3%E8%AA%AC%2C%E9%80%A3%E8%BC%89%2C%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%2C%E3%82%B3%E3%83%A9%E3%83%A0%2C%E6%83%85%E5%A0%B1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%2C%E9%96%8B%E7%99%BA%2C%E9%81%8B%E7%94%A8%E7%AE%A1%E7%90%86%2C%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%2C%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%2C%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%2COSS%2C%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%2C%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%2CWindows%2CIoT&amp;rnd=1559008382037&amp;composite=1559008382005&amp;ref=&amp;Xnoindtg=&amp;x-cxsegids=&amp;t=js"></script>
+	</div>
+	<div>
+		<div id="header">
+			<div id="inner">
+				<span id="skip"><a href="javascript:void(0);"
+					title="このページをスキップする" onclick="ITWS.ref();">このページをスキップする</a></span>
+				<div id="logo">
+					<h1>
+						<a href="javascript:void(0);" title="ITmedia"
+							onclick="ITWS.ref();"><img
+							src="https://image.itmedia.co.jp/images/logo/150_ait_bgw.gif"></a>
+					</h1>
+					<span id="url"><a href="javascript:void(0);"
+						title="https://www.atmarkit.co.jp/"
+						onclick="ITWS.ref('https://www.atmarkit.co.jp/');">https://www.atmarkit.co.jp/</a></span>
+				</div>
+			</div>
+		</div>
+		<div id="swfAd">
+			<div>
+				<map name="map_730217431">
+					<area coords="0,0,640,480"
+						href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=88,68d4f2dc/2075501479/ITWS/254099/300874400.510232165.620172534/730217431/103595/2075501479:ITWS:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cubmV4cGVjdC5qcC9lb3MvZW9zMS8"
+						target="_blank" rel="nofollow">
+				</map>
+				<img
+					src="https://img.itmedia.jp/so/images/sa/b/286/293822/300874400/ITmedia_enterprize_pc.jpg"
+					width="640" height="480" usemap="#map_730217431" border="0" alt="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
