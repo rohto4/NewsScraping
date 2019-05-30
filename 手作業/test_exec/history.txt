@@ -1,0 +1,86 @@
+cd C:\work\IDE\Git\20_work\git\NewsScraping
+easy_install SQLAlchemy
+python
+pip install mysqlclient
+mysql
+mysql -urohto4 -ptakehiro1290 yayoi-bot
+mysql -urohto4 -ptakehiro1290 yayoi_bot
+
+------------------------------------------------------------------------------------------
+
+MariaDB [yayoi_bot]>
+MariaDB [yayoi_bot]> 1
+    -> 2
+    -> 3
+    -> CREATE DATABASE sample_db
+    -> CHARACTER SET utf8mb4
+    -> COLLATE utf8mb4_unicode_ci
+    ->
+    -> quit()
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1
+2
+3
+CREATE DATABASE sample_db
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci' at line 1
+MariaDB [yayoi_bot]> CREATE DATABASE sample_db
+    -> CHARACTER SET utf8mb4
+    -> COLLATE utf8mb4_unicode_ci;
+Query OK, 1 row affected (0.01 sec)
+
+MariaDB [yayoi_bot]> select * from students;
+Empty set (0.00 sec)
+
+MariaDB [yayoi_bot]> select count(*) from students;
++----------+
+| count(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
+MariaDB [yayoi_bot]> SHOW TABLE;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+MariaDB [yayoi_bot]> SHOW TABLE LIST;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIST' at line 1
+MariaDB [yayoi_bot]> use infomation_schema;
+ERROR 1049 (42000): Unknown database 'infomation_schema'
+MariaDB [yayoi_bot]> use information_schema;
+Database changed
+MariaDB [information_schema]> select table_name, column_name from columns where table_schema="yayoi_bot";
++---------------+--------------------+
+| table_name    | column_name        |
++---------------+--------------------+
+| students      | id                 |
+| students      | name               |
+| twitter_tweet | tweet_id           |
+| twitter_tweet | user_id            |
+| twitter_tweet | twitter_tweet_id   |
+| twitter_tweet | tweet_text         |
+| twitter_tweet | tweet_datetime     |
+| twitter_tweet | ins_datetime       |
+| twitter_tweet | upd_datetime       |
+| twitter_user  | twitter_user_id    |
+| twitter_user  | user_name          |
+| twitter_user  | user_screen_name   |
+| twitter_user  | profile_image_link |
+| twitter_user  | ins_datetime       |
+| twitter_user  | upd_datetime       |
++---------------+--------------------+
+15 rows in set (0.02 sec)
+
+MariaDB [information_schema]> select * from information_schema
+    -> ;
+ERROR 1109 (42S02): Unknown table 'information_schema' in information_schema
+MariaDB [information_schema]> usr yayoi_bot
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'usr yayoi_bot' at line 1
+MariaDB [information_schema]> exit;
+Bye
+
+------------------------------------------------------------------------------------------
+
+cd C:\work\IDE\Git\20_work\git\NewsScraping\Žèì‹Æ\test_exec
+doskey /h > history.txt
+doskey /h >> history.txt

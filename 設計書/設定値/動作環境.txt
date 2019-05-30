@@ -1,0 +1,39 @@
+◆環境変数
+=== yayoi-bot Config Vars
+ACCESS_TOKEN:         773885677507321856-bypmqmScqUcCPAuEQRuhRDllEqtXXeT
+ACCESS_TOKEN_SECRET:  pGq6OYipTDRzRtv8QXI0cdCZ2yWkXIYNLvv91fh8Cob61
+CLEARDB_DATABASE_URL: mysql://b14c2ff56457d3:aaa98741@us-cdbr-iron-east-03.cleardb.net/heroku_2ac676af0893826?reconnect=true
+CONSUMER_KEY:         o46La2iGb7bIn41XyXqHyYw8A
+CONSUMER_SECRET:      eTeaiw1nJ71KNgH2AwU6cQkgbByk6ZLfi58FEel6ENrsNAm5gR
+DATABASE_URL:         'mysql2://b14c2ff56457d3:aaa98741@us-cdbr-iron-east-03.cleardb.net/heroku_2ac676af0893826'
+SLACKBOT_API_TOKEN:   xoxb-583853931905-600167850853-7yyWMHgnleCvGpNsNS2c94aT
+
+
+
+heroku config:set DB_DATABASE=heroku_2ac676af0893826
+heroku config:set DB_HOST=us-cdbr-iron-east-03.cleardb.net
+heroku config:set DB_USERNAME=b14c2ff56457d3
+heroku config:set DB_PASSWORD=aaa98741
+
+heroku config:set APP_ENV=heroku
+heroku config:set LANG=ja_JP.UTF-8
+heroku config:set TZ=Asia/Tokyo
+
+
+
+
+◆MySQL
+メモに書き残しあり
+接続文字列
+mysql -u [user] -p [password] [database名]
+mysql -urohto4 -ptakehiro1290 yayoi_bot
+C:\work\10_devdoc\memo\201904\20190405.txt
+
+
+エクスポート
+mysqldump -uUSER_NAME -pPASSWORD -h HOST -r dump.sql --single-transaction DB_NAME
+mysqldump -urohto4 -ptakehiro1290 -h localhost -r dump.sql --single-transaction yayoi_bot
+
+インポート
+
+mysql --host=HOST --user=USER --password=PASSWORD --reconnect heroku_xxxxxx < dump.sql

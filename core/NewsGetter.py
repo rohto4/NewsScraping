@@ -137,9 +137,9 @@ class ITMediaGetter(NewsGetter):
             print("a")
             
             # 指定されたページが表示されていないため実行されずにwaitしている
-            skip_elem = self.driver.find_element_by_xpath('//*[@id="skip"]/a')
-            print(skip_elem)
-            skip_elem.click()
+#             skip_elem = self.driver.find_element_by_xpath('//*[@id="skip"]/a')
+#             print(skip_elem)
+#             skip_elem.click()
 
 #             element = WebDriverWait(self.driver, 30).until(
 #                 EC.presence_of_element_located((By.CLASS_NAME, "colBoxOuter"))

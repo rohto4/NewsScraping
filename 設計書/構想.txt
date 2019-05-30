@@ -4,13 +4,13 @@
 
 ◆解決したい問題
 ・技術習得の効率化
-	・お試し記事の選別が面倒
-	・読むべき記事を忘れてしまう、取得漏れしてしまう
+			・お試し記事の選別が面倒
+			・読むべき記事を忘れてしまう、取得漏れしてしまう
 ・記事ネタ収集の効率化
-	・IT系ニュースサイトの巡回
-	・取捨選択の自動化（→適量だけを目に入れたい）
-	（・興味のない情報が排除されてしまう）
-	（・無駄な情報の排除 / 興味のある情報に絞る）
+			・IT系ニュースサイトの巡回
+			・取捨選択の自動化（→適量だけを目に入れたい）
+			（・興味のない情報が排除されてしまう）
+			（・無駄な情報の排除 / 興味のある情報に絞る）
 
 ◆解決方法
 ・pythonでdbとの連携を可能にして、slackbot、scrapingの幅を広げる
@@ -21,9 +21,9 @@
 ◆アルゴ
 ・基本はすべての記事URLを保存
 ・欲しい条件設定
-	→条件に一致する記事を通知
+			→条件に一致する記事を通知
 ・ランダム記事
-	→毎日数件必ず読む用に通知
+			→毎日数件必ず読む用に通知
 
 --------------------------------------------------
 ◆知りたい情報
@@ -32,8 +32,8 @@
 ・タイトル
 （・見出し文章）
 ・記事属性
-	・<<種別1>>タグ / カテゴリ
-	・<<種別2>>トレンド / コラム / 新技術おためし / 問題解決
+			・<<種別1>>タグ / カテゴリ
+			・<<種別2>>トレンド / コラム / 新技術おためし / 問題解決
 ・記事リンク
 =====
 サイト依存
@@ -47,9 +47,9 @@
 ・取得元元サイト
 
 ◆WH
-・いつ				：毎日朝夕
-・どれくらいの		：読める分だけ
-・どうやって		：slack＋検索用アプリ
+・いつ			：毎日朝夕
+・どれくらいの			：読める分だけ
+・どうやって			：slack＋検索用アプリ
 ・だれに			：基本自分向け
 --------------------------------------------------
 ◆機能案
@@ -63,83 +63,84 @@
 --------------------------------------------------
 ◆テーブル定義
 ①一次ソーステーブル（Qiita, 個人ブログ, @ITなど）
-	→ニューステーブルにどのカラムが保存されるか紐づけ
-②二次ソーステーブル（TechFeed, Gigazineなど）
-	→必要？
+			→ニューステーブルにどのカラムが保存されるか紐づけ
+// ②二次ソーステーブル（TechFeed, Gigazineなど）
+//			→必要？
 ③ニュースメインテーブル
-	→タイトル、リンクなど記事そのものの情報を保存
+			→タイトル、リンクなど記事そのものの情報を保存
 ④条件設定テーブル？（設定ファイルでいいか）
-	→選別条件設定を保存する
+			→選別条件設定を保存する
 ⑤サイト定義テーブル
-	→サイト名、URLなどを紐づける
+			→サイト名、URLなどを紐づける
+			→取得設定のON OFFを設定
 ⑥ニュース付与情報テーブル
-	→個々のニュースがユーザから見てどのような状態か保存する
+			→個々のニュースがユーザから見てどのような状態か保存する
 
 ①②テーブル③に入りうる値をサイトが毎にチェック
 ※サイトの仕様変更が無い限り値に変動なし
-site_id						varchar
-is_title_text				boolean
+site_id			varchar
+is_title_text			boolean
 is_news_link_url			boolean
-is_news_tag_category1		boolean
-is_news_tag_category2		boolean
-is_news_tag_category3		boolean
-is_news_tag_category4		boolean
-is_news_tag_category5		boolean
-is_news_type1				boolean
-is_news_type2				boolean
-is_news_type3				boolean
-is_news_type4				boolean
-is_first_source_site_id		boolean
-is_second_source_site_id	boolean
-is_news_thumbnail_filename	boolean
+is_news_tag_category1			boolean
+is_news_tag_category2			boolean
+is_news_tag_category3			boolean
+is_news_tag_category4			boolean
+is_news_tag_category5			boolean
+is_news_type1			boolean
+is_news_type2			boolean
+is_news_type3			boolean
+is_news_type4			boolean
+is_first_source_site_id			boolean
+is_second_source_site_id			boolean
+is_news_thumbnail_filename			boolean
 
 
 ③ニュースそのものの情報を保持
 ※定期取得時に追加
-news_id						varchar
-title_text					varchar
-news_link_url				varchar
+news_id			varchar
+title_text			varchar
+news_link_url			varchar
 news_tag_category1			varchar
 news_tag_category2			varchar
 news_tag_category3			varchar
 news_tag_category4			varchar
 news_tag_category5			varchar
-news_type1					varchar
-news_type2					varchar
-news_type3					varchar
-news_type4					varchar
-first_source_site_id		varchar
-second_source_site_id		varchar
-news_thumbnail_filename		varchar
-post_date					datetime
-get_date					datetime
+news_type1			varchar
+news_type2			varchar
+news_type3			varchar
+news_type4			varchar
+first_source_site_id			varchar
+second_source_site_id			varchar
+news_thumbnail_filename			varchar
+post_date			datetime
+get_date			datetime
 ※取得元サイトを増やす度に追加
 
 
 ④通知などの設定を保持
 ※いつでも変更可能、変更時は上書きではなく行の追加
-terms_id					varchar
-terms_title					varchar
+terms_id			varchar
+terms_title			varchar
 term_tag_category1			varchar
 term_tag_category2			varchar
-term_type1					varchar
-term_type2					varchar
-first_source_site_id		varchar
-create_date					datetime
+term_type1			varchar
+term_type2			varchar
+first_source_site_id			varchar
+create_date			datetime
 
 
 ⑤ニュースサイトそのものの情報を記録
 ※取得元サイトが増える度に追加
-site_id						varchar
-site_title					varchar
-site_url					varchar
+site_id			varchar
+site_title			varchar
+site_url			varchar
 
 
 ⑥ニュースに対してユーザの行った動作と状態を記録
 ※ニュース取得時と何らかの操作をした際に追加
-news_id						varchar
-is_notice					boolean
-is_read						boolean
+news_id			varchar
+is_notice			boolean
+is_read			boolean
 
 
 

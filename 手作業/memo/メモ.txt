@@ -1,0 +1,21 @@
+◆プロジェクトについて
+機能別のお試しまではNewsScrapingを使用
+↓
+全体設計がおおよそ完成した後に新しくrepositoryを作成
+
+
+◆DBについて
+apache + phpmyadmin
+↓
+ある程度整ったらherokuに環境移行
+エクスポート(phpmyadmin側)
+mysqldump -urohto4 -ptakehiro1290 -h localhost -r dump.sql --single-transaction yayoi_bot
+インポート(heroku側)
+mysql --host=HOST --user=USER --password=PASSWORD --reconnect heroku_xxxxxx < dump.sql
+
+
+
+◆DB
+
+
+CREATE DATABASE

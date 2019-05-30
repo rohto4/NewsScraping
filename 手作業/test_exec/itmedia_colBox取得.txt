@@ -1,0 +1,303 @@
+a
+2
+<div class="colBoxInner">
+<div class="GTLeftBox">
+<div class="colBoxIndex GTLeft">
+<div class="colBoxIcon"><a href="/ait/articles/1905/29/news055.html"><img alt="IIJがGCPとの閉域網接続サービス発表、合わせ技で差別化" onclick="cx_pp_event('aittop_gt_left_1');" src="//image.itmedia.co.jp/ait/articles/1905/29/240_news055.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>ローカルインターネットブレイクアウトにも対応できる：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/29/news055.html" onclick="cx_pp_event('aittop_gt_left_1');">IIJがGCPとの閉域網接続サービス発表、合わせ技で差別化</a><span class="colBoxNewtxt">New!</span></h3></div>
+</div>
+</div>
+<div class="GTRightBox">
+<div class="colBoxIndex GTRight">
+<div class="colBoxIcon"><a href="/ait/articles/1905/30/news007.html" onclick="cx_pp_event('aittop_gt_right_1');"><img alt="Windows 7のサポート終了まで残り半年、選択が迫られるレガシーPCの今後" src="//image.itmedia.co.jp/ait/articles/1905/30/top_news007.png"/></a></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/30/news007.html" onclick="cx_pp_event('aittop_gt_right_1');">Windows 7のサポート終了まで残り半年、選択が迫られるレガシーPCの今後</a><span class="colBoxNewtxt">New!</span></h3></div>
+</div>
+<div class="colBoxIndex GTRight">
+<div class="colBoxIcon"><a href="/ait/articles/1905/30/news017.html" onclick="cx_pp_event('aittop_gt_right_1');"><img alt="【 declare 】コマンド――変数を宣言する、変数などの内容を表示する" src="//image.itmedia.co.jp/ait/articles/1905/30/top_news017.png"/></a></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/30/news017.html" onclick="cx_pp_event('aittop_gt_right_1');">【 declare 】コマンド――変数を宣言する、変数などの内容を表示する</a><span class="colBoxNewtxt">New!</span></h3></div>
+</div>
+<div class="colBoxIndex GTRight">
+<div class="colBoxIcon"><a href="/ait/articles/1905/30/news022.html" onclick="cx_pp_event('aittop_gt_right_1');"><img alt="【Android】起動しなくなったスマホを強制的に初期化する" src="//image.itmedia.co.jp/ait/articles/1905/30/top_news022.jpg"/></a></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/30/news022.html" onclick="cx_pp_event('aittop_gt_right_1');">【Android】起動しなくなったスマホを強制的に初期化する</a><span class="colBoxNewtxt">New!</span></h3></div>
+</div>
+</div>
+</div>
+<div class="colBoxInner">
+<div class="colBoxIndex"><!-- CMS index -->
+<div class="colBoxIcon noIconSet"><a href="//www.atmarkit.co.jp/ait/articles/1905/30/news039.html"><img align="left" alt="icon" border="0" height="90" hspace="2" src="//image.itmedia.co.jp/ait/articles/1905/30/top_news039.jpg" vspace="2" width="120"/></a></div>
+<div class="colBoxSubTitle"><h5>パーソルテクノロジースタッフが実態調査：</h5></div>
+<div class="colBoxTitle"><h3><a href="//www.atmarkit.co.jp/ait/articles/1905/30/news039.html" title="「時間さえあれば」　進まないエンジニアの副業、切実なその理由とは">「時間さえあれば」　進まないエンジニアの副業、切実なその理由とは</a></h3></div>
+</div>
+</div>
+<div class="colBoxInner">
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a "="" href="//www.atmarkit.co.jp/ait/articles/1905/20/news004.html"><img src="//image.itmedia.co.jp/ait/articles/1905/20/top_news004.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>人気連載まとめ読み！ ＠IT eBook（52）：</h5></div>
+<div class="colBoxTitle"><h3><a href="//www.atmarkit.co.jp/ait/articles/1905/20/news004.html">Visual Studio Codeを活用するための人気TIPS 12選</a></h3></div>
+<div class="colBoxDescription"><p>人気過去連載を電子書籍化して無料ダウンロード提供する＠IT eBookシリーズ。第52弾は、Microsoftが無償で提供するソースコードエディタ「Visual Studio Code」。高機能なこのエディタを使いやすくするTIPS集から12本をまとめてお送りする。</p></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/20）</span></p></div>
+<div class="colBoxClear"></div>
+</div>
+</div>
+<div class="colBoxInner" id="Cloud"><div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/29/news006.html"><img alt="シェルスクリプトに挑戦しよう（17）配列［応用編］" src="//image.itmedia.co.jp/ait/articles/1905/29/top_news006.png"/></a></div>
+<div class="colBoxSubTitle"><h5>“応用力”をつけるためのLinux再入門（37）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/29/news006.html">シェルスクリプトに挑戦しよう（17）配列［応用編］</a><span class="colBoxNewtxt">New!</span></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/29）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1408/29/news047.html"><img alt="【Google Chrome】同期パスフレーズを設定してセキュリティを高める（Windows／iPhone／Android）" src="//image.itmedia.co.jp/ait/articles/1408/29/top_news047.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>Google Chrome完全ガイド：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1408/29/news047.html">【Google Chrome】同期パスフレーズを設定してセキュリティを高める（Windows／iPhone／Android）</a><span class="colBoxNewtxt">New!</span></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/29）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/28/news013.html"><img alt="意外と誤解している人が多い「曜日」の話" src="//image.itmedia.co.jp/ait/articles/1905/28/top_news013.png"/></a></div>
+<div class="colBoxSubTitle"><h5>その知識、ホントに正しい？ Windowsにまつわる都市伝説（136）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/28/news013.html">意外と誤解している人が多い「曜日」の話</a><span class="colBoxNewtxt">New!</span></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/28）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxUlist titleList">
+<ul>
+<li>
+<div class="colBoxSubTitle"><h5>KubeCon＋CloudNativeCon Europe 2019詳報（1）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/27/news020.html">5才になったKubernetes、今後は「Linuxのような役割を果たす存在に」</a></h3><span class="indexDate">（2019/05/27）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>羽ばたけ！ネットワークエンジニア（16）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/27/news014.html">「内線電話」はもう止めよう</a></h3><span class="indexDate">（2019/05/27）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>Microsoft Azure最新機能フォローアップ（80）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/27/news011.html">Azure仮想マシンで「第2世代仮想マシン」のサポートがようやくプレビューで登場</a></h3><span class="indexDate">（2019/05/27）</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="colBoxInner" id="AIIoT"><div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/24/news019.html"><img alt="［Python入門］関数のローカル変数とスコープ" src="//image.itmedia.co.jp/ait/articles/1905/24/top_news019.png"/></a></div>
+<div class="colBoxSubTitle"><h5>Python入門：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/24/news019.html">［Python入門］関数のローカル変数とスコープ</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/24）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/22/news034.html"><img alt="AIが予測した司法予備試験問題の60％が的中　サイトビジットの「未来問」" src="//image.itmedia.co.jp/ait/articles/1905/22/top_news034.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>これからは過去問ではなく未来問？：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/22/news034.html">AIが予測した司法予備試験問題の60％が的中　サイトビジットの「未来問」</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/22）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/22/news007.html"><img alt="「Gensim」による機械学習を使った自然言語分析の基本――「NLTK」「潜在的ディリクレ配分法（LDA）」「Word2vec」とは" src="//image.itmedia.co.jp/ait/articles/1905/22/top_news007.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>Pythonで始める機械学習入門（9）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/22/news007.html">「Gensim」による機械学習を使った自然言語分析の基本――「NLTK」「潜在的ディリクレ配分法（LDA）」「Word2vec」とは</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/22）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxUlist titleList">
+<ul>
+<li>
+<div class="colBoxSubTitle"><h5>Python入門：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/21/news009.html">［Python入門］関数の引数</a></h3><span class="indexDate">（2019/05/21）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>短時間でモノを見つける：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/20/news092.html">周囲をざっと見渡して環境全体を推測するAIを開発、テキサス大</a></h3><span class="indexDate">（2019/05/20）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>混合精度学習への対応強化など：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/20/news031.html">Python向けライブラリ「Chainer」「CuPy」の最新版をPreferred Networksが公開</a></h3><span class="indexDate">（2019/05/20）</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="colBoxInner" id="DevOps"><div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/21/news030.html"><img alt="DX推進人材が大幅に不足、IPAが企業のDXに関する取り組みを調査" src="//image.itmedia.co.jp/ait/articles/1905/21/top_news030.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>自社が競争力を維持できるのはあと2～3年？：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/21/news030.html">DX推進人材が大幅に不足、IPAが企業のDXに関する取り組みを調査</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/21）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/17/news007.html"><img alt="約9カ月でリリース、目標の2倍の成果――“品質”と“納期”を両立させる新規プロダクト開発でチームを崩壊させない方法" src="//image.itmedia.co.jp/ait/articles/1905/17/top_news007.gif"/></a></div>
+<div class="colBoxSubTitle"><h5>リクルート事例に見るエンジニアとしての価値の高め方（1）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/17/news007.html">約9カ月でリリース、目標の2倍の成果――“品質”と“納期”を両立させる新規プロダクト開発でチームを崩壊させない方法</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/17）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/16/news034.html"><img alt="市場に登場して20年以上、BIツールは浸透したのか？　ガートナーが調査" src="//image.itmedia.co.jp/ait/articles/1905/16/top_news034.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>利用率は高いが利用頻度はまちまち：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/16/news034.html">市場に登場して20年以上、BIツールは浸透したのか？　ガートナーが調査</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/16）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxUlist titleList">
+<ul>
+<li>
+<div class="colBoxSubTitle"><h5>1日当たり2時間を浪費：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/15/news081.html">データ管理プロセスの問題で企業は年間200万ドルを浪費、ベリタスが調査</a></h3><span class="indexDate">（2019/05/15）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>docs.microsoft.comにも統合：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/13/news081.html">Microsoft、「Xamarin」の全APIドキュメントをオープンソース化</a></h3><span class="indexDate">（2019/05/13）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>Windowsにも対応：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/10/news041.html">ブロックチェーン対応アプリ開発環境「Hyperledger」公開、モバイル機器向け</a></h3><span class="indexDate">（2019/05/10）</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="colBoxInner" id="Security"><div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/15/news027.html"><img alt="公開鍵を「公開しない」ってどういうこと？" src="//image.itmedia.co.jp/ait/articles/1905/15/top_news027.png"/></a></div>
+<div class="colBoxSubTitle"><h5>セキュリティクラスタ まとめのまとめ 2019年4月版：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/15/news027.html">公開鍵を「公開しない」ってどういうこと？</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/15）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/13/news074.html"><img alt="通話内容をAIで解析して特殊詐欺を防止、NTTが実証実験" src="//image.itmedia.co.jp/ait/articles/1905/13/top_news074.png"/></a></div>
+<div class="colBoxSubTitle"><h5>クラウド上で判定：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/13/news074.html">通話内容をAIで解析して特殊詐欺を防止、NTTが実証実験</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/13）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/13/news011.html"><img alt="QEMU脆弱性を利用したVMエスケープ攻撃の検証：メモリ情報漏えいの脆弱性編" src="//image.itmedia.co.jp/ait/articles/1905/13/top_news011.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>OSS脆弱性ウォッチ（13）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/13/news011.html">QEMU脆弱性を利用したVMエスケープ攻撃の検証：メモリ情報漏えいの脆弱性編</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/13）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxUlist titleList">
+<ul>
+<li>
+<div class="colBoxSubTitle"><h5>セキュリティ・アディッショナルタイム（31）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/07/news012.html">君のコンパイラや開発環境は侵害されていないか？――開発者が「サプライチェーン攻撃」に加担しないためにすべきこと</a></h3><span class="indexDate">（2019/05/07）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>新たな手口「DNS Changer」：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1904/25/news052.html">iOS端末向けに偽の構成プロファイルを用意する手口も――進化を続ける「Roaming Mantis」に警鐘</a></h3><span class="indexDate">（2019/04/25）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>最も危険なパスワードは「123456」：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1904/23/news078.html">英国のサイバーセキュリティと世界の流出パスワードの現状、英国NCSCが分析</a></h3><span class="indexDate">（2019/04/23）</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="colBoxInner" id="Jibun"><div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/29/news009.html"><img alt="人間レスの環境ならパスワードレス認証も簡単！" src="//image.itmedia.co.jp/ait/articles/1905/29/top_news009.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>IT用語解説系マンガ：食べ超（163）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/29/news009.html">人間レスの環境ならパスワードレス認証も簡単！</a><span class="colBoxNewtxt">New!</span></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/29）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/20/news002.html"><img alt="営業部が発注したシステムを運用部門が受け取り拒否！――ユーザー社内のゴタゴタに巻き込まれた新興システム開発会社の運命" src="//image.itmedia.co.jp/ait/articles/1905/20/top_news002.gif"/></a></div>
+<div class="colBoxSubTitle"><h5>開発残酷物語（10）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/20/news002.html">営業部が発注したシステムを運用部門が受け取り拒否！――ユーザー社内のゴタゴタに巻き込まれた新興システム開発会社の運命</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/20）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="/ait/articles/1905/15/news008.html"><img alt="私が昭和100年になっても、あなたは未定義よ" src="//image.itmedia.co.jp/ait/articles/1905/15/top_news008.jpg"/></a></div>
+<div class="colBoxSubTitle"><h5>IT用語解説系マンガ：食べ超（162）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/15/news008.html">私が昭和100年になっても、あなたは未定義よ</a></h3></div>
+<div class="colBoxIndexDate"><p><span class="indexDate">（2019/05/15）</span></p></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxUlist titleList">
+<ul>
+<li>
+<div class="colBoxSubTitle"><h5>なぜ数日で採用に至らないのか：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/13/news121.html">IT分野の「非正規社員」採用意欲高める日本企業、ヘイズ・ジャパンが調査</a></h3><span class="indexDate">（2019/05/14）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>教えて！　キラキラお兄さん：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/13/news004.html">ITで日本のアパレルの問題を解決できますか？</a></h3><span class="indexDate">（2019/05/13）</span></div>
+</li>
+<li>
+<div class="colBoxSubTitle"><h5>「訴えてやる！」の前に読む IT訴訟 徹底解説（65）：</h5></div>
+<div class="colBoxTitle"><h3><a href="/ait/articles/1905/08/news004.html">パッケージソフトだか何だか知りませんが、現行システムと同じの作ってくださいよ</a></h3><span class="indexDate">（2019/05/08）</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="colBoxInner"><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,4c6b5e45/2075501479/ISTLC/254507/300872394.510230158.620172910/730218150/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjkvbmV3czAwMS5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293820/300872394/icon080px_3.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,4c6b5e45/2075501479/ISTLC/254507/300872394.510230158.620172910/730218150/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjkvbmV3czAwMS5odG1s" rel="nofollow" target="_top">Webとメールからの侵入を防ぐ逆転の発想</a><span class="colBoxNewtxt">New!</span></h3></div> <div class="colBoxDescription"><p>危険なWebサイトやメールアドレスを登録して侵入を防ぐ「ブラックリスト方式」には弱点がある。登録前の未知の攻撃には無防備だからだ。どうすればよいのか？</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,f106c4d9/2075501479/ISTLC/252649/300873709.510231474.620171253/730216405/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMTQvbmV3czAwMS5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293821/300873709/80_i_nssol01_a.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,f106c4d9/2075501479/ISTLC/252649/300873709.510231474.620171253/730216405/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMTQvbmV3czAwMS5odG1s" rel="nofollow" target="_top">転職直後に携わったのは異部署混合PJでした</a><span class="colBoxNewtxt"><!-- 1555894800 --></span></h3></div> <div class="colBoxDescription"><p>研究所は技術だけに興味を持ってるんじゃないか、一緒にビジネスを立ち上げても次の研究要素が見つかったらそっちにいってしまうのではないか、正直不安でした。</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,7cdf891a/2075501479/ISTLC/254422/300874854.510232619.620172832/730218294/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjgvbmV3czAwNy5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293823/300874854/80_60_icon_b.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,7cdf891a/2075501479/ISTLC/254422/300874854.510232619.620172832/730218294/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjgvbmV3czAwNy5odG1s" rel="nofollow" target="_top">バックアップは単なる保険？　CEOの疑問</a><span class="colBoxNewtxt">New!</span></h3></div> <div class="colBoxDescription"><p>コストがかかるにもかかわらず、バックアップとリカバリーの時にしか利用されないストレージ。バックアップを簡素化し「単なる保険」以上の価値を生み出すことは可能か？</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,35b23471/2075501479/ISTLC/254603/300873752.510231517.620172996/730218542/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMzAvbmV3czAwNi5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293822/300873752/i_haruka14_b_80.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,35b23471/2075501479/ISTLC/254603/300873752.510231517.620172996/730218542/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMzAvbmV3czAwNi5odG1s" rel="nofollow" target="_top">リアルアイドルが僕の部屋にやってきた！</a><span class="colBoxNewtxt">New!</span></h3></div> <div class="colBoxDescription"><p>神様、これは夢ですか？　「ファンメタ」のルナちゃんが「触ってもいいよ」って微笑んでる。ああ、それなのに。なぜ僕はここを出られないんだ！　バカバカ、僕のバカ！！！</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,a6addba0/2075501479/ISTLC/252845/300872657.510230422.620171422/730216658/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjQvbmV3czAwOC5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293820/300872657/icon05_080px.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,a6addba0/2075501479/ISTLC/252845/300872657.510230422.620171422/730216658/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjQvbmV3czAwOC5odG1s" rel="nofollow" target="_top">FIDO2でパスワードレス認証が加速する</a><span class="colBoxNewtxt"><!-- 1556067600 --></span></h3></div> <div class="colBoxDescription"><p>パスワード運用が限界を迎える中、生体認証などの技術を活用したFIDO／FIDO2に代表されるパスワードレス認証は今後の主流になっていくだろう。</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,dd85621a/2075501479/ISTLC/252932/300873744.510231509.620171497/730216743/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjUvbmV3czAwMy5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293822/300873744/i_mni58_a_80.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,dd85621a/2075501479/ISTLC/252932/300873744.510231509.620171497/730216743/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjUvbmV3czAwMy5odG1s" rel="nofollow" target="_top">石の上にも3年とは言うけれど……</a><span class="colBoxNewtxt"><!-- 1556154000 --></span></h3></div> <div class="colBoxDescription"><p>プログラマーになりたくてIT企業に就職したのに、アサインされたのは品質保証プロジェクト。役割は増えるが給料は変わらず、代わりがいないからと移動願を却下され続け……</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,6b296416/2075501479/ISTLC/252652/300873447.510231209.620171256/730216138/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDMvMTkvbmV3czAwNC5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293821/300873447/B_80.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,6b296416/2075501479/ISTLC/252652/300873447.510231209.620171256/730216138/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDMvMTkvbmV3czAwNC5odG1s" rel="nofollow" target="_top">開発,検証,本番でテストデータをどう作る？</a><span class="colBoxNewtxt"><!-- 1555894800 --></span></h3></div> <div class="colBoxDescription"><p>SAPシステムにおけるデータマネジメントやデータ活用の課題、その解消方法について、SAP導入支援企事業を展開するアルプス システム インテグレーションに聞いた</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,5796a250/2075501479/ISTLC/252817/300873784.510231549.620171407/730216591/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjQvbmV3czAwNC5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293822/300873784/80_2.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,5796a250/2075501479/ISTLC/252817/300873784.510231549.620171407/730216591/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDQvMjQvbmV3czAwNC5odG1s" rel="nofollow" target="_top">100年以上続く地域新聞、電子化の狙いとは</a><span class="colBoxNewtxt"><!-- 1556067600 --></span></h3></div> <div class="colBoxDescription"><p>1912年に創刊し100年以上、地元に密着した紙面づくりを行う日刊新聞『宇部日報』が、2019年3月1日に電子版を開始した。今後、ハイパーローカルな新聞はどう変わるのか？</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,1bf75f4c/2075501479/ISTLC/254431/300875945.510233716.620172839/730218377/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjgvbmV3czAwNS5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293824/300875945/80_i_yayoi02_01.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,1bf75f4c/2075501479/ISTLC/254431/300875945.510233716.620172839/730218377/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjgvbmV3czAwNS5odG1s" rel="nofollow" target="_top">“こだわり駆動”で突き進め</a><span class="colBoxNewtxt">New!</span></h3></div> <div class="colBoxDescription"><p>UX「ユーザーの利便性を考えたら、こうした方がいい」開発「それを実装するには、技術的にこんな問題点が」 UX「何を！」 開発「何だと！」 </p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,a9b3080b/2075501479/ISTLC/254345/300875774.510233545.620172760/730218114/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjcvbmV3czAwOC5odG1s" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293823/300875774/80x60_55593_190520_2.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,a9b3080b/2075501479/ISTLC/254345/300875774.510233545.620172760/730218114/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjcvbmV3czAwOC5odG1s" rel="nofollow" target="_top">沖縄県にバックアップサイトを置く利点とは</a><span class="colBoxNewtxt"><!-- 1558918800 --></span></h3></div> <div class="colBoxDescription"><p>東京から遠く離れながらも高速なネットワーク回線で結ばれBCP対策のためのバックアップサイトを置くには理想的な条件が整った沖縄県のデータベース専用のBCPパッケージとは</p></div> <div class="colBoxClear h10px"></div> </div><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,49d87279/2075501479/ISTLC/254514/300875761.510233532.620172914/730218523/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjkvbmV3czAwMi5odG1sP2FyZ3VtZW50PVlrNXloMlVDJmRtYWk9SVRtZWRpYV8yMDE5MDUyOTE2" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293823/300875761/80_60.jpg"/></a></div> <div class="colBoxTitle"><h3><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,49d87279/2075501479/ISTLC/254514/300875761.510233532.620172914/730218523/103460/2075501479:ISTLC:*/l/sp=0;/g/B:aHR0cHM6Ly93d3cuYXRtYXJraXQuY28uanAvYWl0L2FydGljbGVzLzE5MDUvMjkvbmV3czAwMi5odG1sP2FyZ3VtZW50PVlrNXloMlVDJmRtYWk9SVRtZWRpYV8yMDE5MDUyOTE2" rel="nofollow" target="_top">暑苦しくなくさりげないテレワークが必要</a><span class="colBoxNewtxt">New!</span></h3></div> <div class="colBoxDescription"><p>ちょっと作業したいだけなのにあれやこれや作業が必要となればテレワークは進まない。「端末を持ったまま飲み会に行ってもいい」くらいの気楽さで使う方法はないだろうか。</p></div> <div class="colBoxClear h10px"></div> </div></div>
+<div class="colBoxInner colBoxInnerEL">
+<div class="colBoxInnerHead"><h2><a href="http://el.jibun.atmarkit.co.jp/">エンジニアライフ</a></h2><span class="moreLink"><a href="http://el.jibun.atmarkit.co.jp/">一覧</a></span></div>
+<div class="colBoxIndex" id="js-topELIndex">
+<div class="colBoxIcon"><a href="https://el.jibun.atmarkit.co.jp/noriwo_t/2019/05/post_126.html?ref=rss"><img alt="会社を辞めてフリーランスになろうと考えている人におくる５つ質問とプラス１" src="https://el.jibun.atmarkit.co.jp//mt-static/support/assets_c/userpics/userpic-13-100x100.png"/></a></div>
+<div class="colBoxTitle"><h3><a href="https://el.jibun.atmarkit.co.jp/noriwo_t/2019/05/post_126.html?ref=rss" title="会社を辞めてフリーランスになろうと考えている人におくる５つ質問とプラス１">会社を辞めてフリーランスになろうと考えている人におくる５つ質問とプラス１</a></h3></div>
+<div class="colBoxUlist"><ul>
+<li><a href="https://el.jibun.atmarkit.co.jp/pythonlove/2019/05/p08_cia.html?ref=rss">P08.作戦完了 [小説：CIA京都支店]</a></li><li><a href="https://el.jibun.atmarkit.co.jp/pythonlove/2019/05/036.html?ref=rss">036.新入社員を迎える上司・先輩に送りたい５つの言葉とプラス１</a></li><li><a href="https://el.jibun.atmarkit.co.jp/yuu1/2019/05/xxx.html?ref=rss">【小説　演・ジニア】第九話　リベンジXXXを利用して</a></li><li><a href="https://el.jibun.atmarkit.co.jp/justanordinaryday/2019/05/post_9.html?ref=rss">現場の雰囲気が与える影響</a></li>
+</ul></div>
+</div>
+</div>
+<div class="colBoxInner">
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="http://www.atmarkit.co.jp/job/jc/" onclick="designCnt('HRBannar');"><img src="//image.itmedia.co.jp/ait/images/htmlgen/parts_reborn_HRBannar_1_1380854025.jpg"/></a></div>
+</div>
+</div>
+<div class="colBoxInner">
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="https://www.atmarkit.co.jp/ait/articles/1905/20/news004.html#utm_medium=rightcol_ebook&amp;utm_content=imglink1"><img height="60" src="//image.itmedia.co.jp/ait/images/htmlgen/parts_top_rightAitEbook1__1_1558317724.gif" width="80"/></a></div>
+<div class="colBoxTitle"><h3><a href="https://www.atmarkit.co.jp/ait/articles/1905/20/news004.html#utm_medium=rightcol_ebook&amp;utm_content=textlink1">Visual Studio Code TIPS（厳選12本）</a></h3></div>
+<div class="colBoxDescription"><p></p></div>
+<div class="colBoxClear"></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="https://www.atmarkit.co.jp/ait/articles/1805/21/news016.html#utm_medium=rightcol_ebook&amp;utm_content=imglink2"><img height="60" src="//image.itmedia.co.jp/ait/images/htmlgen/parts_top_rightAitEbook1__1_1555896518.gif" width="80"/></a></div>
+<div class="colBoxTitle"><h3><a href="https://www.atmarkit.co.jp/ait/articles/1805/21/news016.html#utm_medium=rightcol_ebook&amp;utm_content=textlink2">働く価値を上げる“VBA／GAS術”（完全版）</a></h3></div>
+<div class="colBoxDescription"><p></p></div>
+<div class="colBoxClear"></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="https://www.atmarkit.co.jp/ait/articles/1903/20/news007.html#utm_medium=rightcol_ebook&amp;utm_content=imglink3"><img height="60" src="//image.itmedia.co.jp/ait/images/htmlgen/parts_top_rightAitEbook1__1_1553046530.gif" width="80"/></a></div>
+<div class="colBoxTitle"><h3><a href="https://www.atmarkit.co.jp/ait/articles/1903/20/news007.html#utm_medium=rightcol_ebook&amp;utm_content=textlink3">“応用力”をつけるためのLinux再入門（1～20）</a></h3></div>
+<div class="colBoxDescription"><p></p></div>
+<div class="colBoxClear"></div>
+</div>
+<div class="colBoxIndex">
+<div class="colBoxIcon"><a href="https://www.atmarkit.co.jp/ait/articles/1902/20/news019.html#utm_medium=rightcol_ebook&amp;utm_content=imglink4"><img height="60" src="//image.itmedia.co.jp/ait/images/htmlgen/parts_top_rightAitEbook1__1_1550625960.gif" width="80"/></a></div>
+<div class="colBoxTitle"><h3><a href="https://www.atmarkit.co.jp/ait/articles/1902/20/news019.html#utm_medium=rightcol_ebook&amp;utm_content=textlink4">Ethereumではじめる“スマートコントラクト開発”</a></h3></div>
+<div class="colBoxDescription"><p></p></div>
+<div class="colBoxClear"></div>
+</div>
+</div>
+<div class="colBoxInner"><div class="colBoxIndex"> <div class="colBoxIcon"><a href="https://dlv.itmedia.jp/rd/v1/j/on/c/chsm=90,6b84e7ac/2075501479/ISTLR/248518/300854987.510212693.620167587/730203585/103459/2075501479:ISTLR:*/l/sp=0;/g/B:aHR0cDovL3d3dy5hdG1hcmtpdC5jby5qcC9haXQvc3BlY2lhbC9hdDE0MDYwNi9vcmFjbGVkYXRhYmFzZWluc2lkZXIuaHRtbA" rel="nofollow" target="_top"><img src="https://img.itmedia.jp/so/images/sa/b/286/293803/300854987/s300x50_170928_03.jpg"/></a></div> </div></div>
+<div class="colBoxInner"><div class="colBoxIndex colBoxIndexTab1 active" id="colBoxIndexTab1"><div class="colBoxUlist"><ul><li class="rank1"><a href="https://www.atmarkit.co.jp/ait/articles/1905/28/news017.html" title="      ［Python入門］ローカル関数とラムダ式    ">      ［Python入門］ローカル関数とラムダ式    </a></li><li class="rank2"><a href="https://www.atmarkit.co.jp/ait/articles/1905/29/news055.html" title="      IIJがGCPとの閉域網接続サービス発表、合わせ技で差別化    ">      IIJがGCPとの閉域網接続サービス発表、合わせ技で差別化    </a></li><li class="rank3"><a href="https://www.atmarkit.co.jp/ait/articles/1905/22/news008.html" title="      新入社員が退職代行サービスを使うと失うもの    ">      新入社員が退職代行サービスを使うと失うもの    </a></li><li class="rank4"><a href="https://www.atmarkit.co.jp/ait/articles/1904/02/news024.html" title="      Pythonってどんな言語なの？    ">      Pythonってどんな言語なの？    </a></li><li class="rank5"><a href="https://www.atmarkit.co.jp/ait/articles/1905/20/news004.html" title="      Visual Studio Codeを活用するための人気TIPS 12選    ">      Visual Studio Codeを活用するための人気TIPS 12選    </a></li><li class="rank6"><a href="https://www.atmarkit.co.jp/ait/articles/1901/15/news020.html" title="      Windows 10でリモートデスクトップ接続を許可する方法    ">      Windows 10でリモートデスクトップ接続を許可する方法    </a></li><li class="rank7"><a href="https://www.atmarkit.co.jp/ait/articles/1905/27/news014.html" title="      「内線電話」はもう止めよう    ">      「内線電話」はもう止めよう    </a></li><li class="rank8"><a href="https://www.atmarkit.co.jp/ait/articles/1905/29/news011.html" title="      セキュリティが目指す高度な自動化の方向が見えた    ">      セキュリティが目指す高度な自動化の方向が見えた    </a></li><li class="rank9"><a href="https://www.atmarkit.co.jp/ait/articles/1903/13/news036.html" title="      【Google Chrome】アドレスバーの予測候補や履歴URLを削除／無効化する    ">      【Google Chrome】アドレスバーの予測候補や履歴URLを削除／無効化する    </a></li><li class="rank10"><a href="https://www.atmarkit.co.jp/ait/articles/1904/01/news025.html" title="      次期Windows 10最新動向：リリース秒読みの「19H1」はこう変わる    ">      次期Windows 10最新動向：リリース秒読みの「19H1」はこう変わる    </a></li></ul></div><div id="rankingpr_day"></div>
+<div class="colBoxPageLink">» <a href="/ait/subtop/features/ranking/index.html#all">ランキングをもっと見る</a></div></div><div class="colBoxIndex colBoxIndexTab2" id="colBoxIndexTab2"><div class="colBoxUlist"><ul><li class="rank1"><a href="https://www.atmarkit.co.jp/ait/articles/1905/10/news025.html" title="      Windows 10向け「令和」対応パッチ、適用すると何がどう変わるのか？    ">      Windows 10向け「令和」対応パッチ、適用すると何がどう変わるのか？    </a></li><li class="rank2"><a href="https://www.atmarkit.co.jp/ait/articles/1905/16/news006.html" title="      Windows 10 バージョン1903が一般向けに間もなくリリース、SAC-T廃止後の企業内展開への影響は？    ">      Windows 10 バージョン1903が一般向けに間もなくリリース、SAC-T廃止後の企業内展開への影響は？    </a></li><li class="rank3"><a href="https://www.atmarkit.co.jp/ait/articles/1905/08/news004.html" title="      パッケージソフトだか何だか知りませんが、現行システムと同じの作ってくださいよ    ">      パッケージソフトだか何だか知りませんが、現行システムと同じの作ってくださいよ    </a></li><li class="rank4"><a href="https://www.atmarkit.co.jp/ait/articles/1901/15/news020.html" title="      Windows 10でリモートデスクトップ接続を許可する方法    ">      Windows 10でリモートデスクトップ接続を許可する方法    </a></li><li class="rank5"><a href="https://www.atmarkit.co.jp/ait/articles/1904/02/news024.html" title="      Pythonってどんな言語なの？    ">      Pythonってどんな言語なの？    </a></li><li class="rank6"><a href="https://www.atmarkit.co.jp/ait/articles/1904/23/news009.html" title="      「『一回転』でググれ」と言ったら、逮捕されますか？    ">      「『一回転』でググれ」と言ったら、逮捕されますか？    </a></li><li class="rank7"><a href="https://www.atmarkit.co.jp/ait/articles/1905/21/news007.html" title="      あのマルウェアの悪夢が再び？　Windows XPに3回目のセキュリティパッチが緊急公開    ">      あのマルウェアの悪夢が再び？　Windows XPに3回目のセキュリティパッチが緊急公開    </a></li><li class="rank8"><a href="https://www.atmarkit.co.jp/ait/articles/1904/23/news007.html" title="      令和7981年12月31日、それはWindows最後の日    ">      令和7981年12月31日、それはWindows最後の日    </a></li><li class="rank9"><a href="https://www.atmarkit.co.jp/ait/articles/1905/22/news008.html" title="      新入社員が退職代行サービスを使うと失うもの    ">      新入社員が退職代行サービスを使うと失うもの    </a></li><li class="rank10"><a href="https://www.atmarkit.co.jp/ait/articles/1905/16/news020.html" title="      Chrome互換に生まれ変わる次期Microsoft Edge その実力は？    ">      Chrome互換に生まれ変わる次期Microsoft Edge その実力は？    </a></li></ul></div><div id="rankingpr_month"></div>
+<div class="colBoxPageLink">» <a href="/ait/subtop/features/ranking/month.html#all">ランキングをもっと見る</a></div></div></div>
+<div class="colBoxInner"><div class="colBoxIndex"><div class="colBoxBanner"><a href="/ait/subtop/features/security/win10_sec.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_6_1550821191.png"/></a></div></div>
+<div class="colBoxIndex"><div class="colBoxBanner"><a href="/ait/subtop/features/security/palo.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_7_1545100939.jpg"/></a></div></div>
+<div class="colBoxIndex"><div class="colBoxBanner"><a href="/ait/subtop/features/network/companyinfra.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_1_1537841216.gif"/></a></div></div>
+<div class="colBoxIndex"><div class="colBoxBanner"><a href="/ait/subtop/features/systemdesign/liftshift.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_2_1536549258.jpg"/></a></div></div>
+<div class="colBoxIndex"><div class="colBoxBanner"><a href="/ait/subtop/features/jibun/uistyle.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_1_1467346196.jpg"/></a></div></div>
+<div class="colBoxIndex"><div class="colBoxBanner"><a href="https://www.itmedia.co.jp/topics/1707/eos/index.html"><img src="//image.itmedia.co.jp/ait/images/htmlgen/rc_teemasitebanner_6_1500974408.gif"/></a></div></div>
+</div>
+<div class="colBoxInner"> <div class="hyouban-comment"> <h3><a class="hyouban-company-name" href="https://hyouban.atmarkit.co.jp/companies/10003713544" target="_blank">株式会社ニチイ学館</a></h3> <p> <span class="point concerned">気になる点</span> <span class="hyouban-theme">企業理念の浸透</span> </p> 浸透している社員と、理念を把握できてないスタッフのムラがある。また、会社的方針と拠点目線(現場の声)に温度差がある為、もう少しお互いに... <div class="hyouban-contributor-info"> 20代 / 女性 / 社員（正社員）/ 専門サービス系 </div> <div class="hyouban-link-area"> <a href="https://hyouban.atmarkit.co.jp/companies/10003713544" target="_blank">もっと口コミ・評判を見る</a> </div> </div> </div>
+<div class="colBoxInner">
+<div class="colBoxIndex">
+<div class="colBoxUlist"><ul>
+<li><a href="https://techtarget.itmedia.co.jp/tt/news/1904/19/news07.html#utm_medium=content-text&amp;utm_source=tt-ait-featured&amp;utm_campaign=20190429&amp;utm_content=AL1" title="Windows 10をHDDでも“爆速”で起動できる「コンパクトOS」のすすめ">Windows 10をHDDでも“爆速”で起動できる「コンパクトOS」のすすめ</a></li>
+<li><a href="https://techtarget.itmedia.co.jp/tt/news/1904/10/news02.html#utm_medium=content-text&amp;utm_source=tt-ait-featured&amp;utm_campaign=20190429&amp;utm_content=AL2" title="Excelの長過ぎる関数式をシンプルにするために、職場で心掛けたいポイント">Excelの長過ぎる関数式をシンプルにするために、職場で心掛けたいポイント</a></li>
+<li><a href="https://techtarget.itmedia.co.jp/tt/news/1904/05/news07.html#utm_medium=content-text&amp;utm_source=tt-ait-featured&amp;utm_campaign=20190429&amp;utm_content=AL3" title="Slackユーザーが「Microsoft Teams」へ乗り換えたくなる4つの比較ポイント">Slackユーザーが「Microsoft Teams」へ乗り換えたくなる4つの比較ポイント</a></li>
+<li><a href="https://techtarget.itmedia.co.jp/tt/news/1904/04/news02.html#utm_medium=content-text&amp;utm_source=tt-ait-featured&amp;utm_campaign=20190429&amp;utm_content=AL4" title="「学習し続けるAI」が医療現場では“使えない”理由">「学習し続けるAI」が医療現場では“使えない”理由</a></li>
+</ul></div>
+</div>
+</div>
+<div class="colBoxInner">
+<div class="colBoxIndex">
+<div class="colBoxUlist"><ul>
+<li><a href="https://itmedia.smartseminar.jp/public/application/add/2013?sslp=1299_22" title="オンデマンド配信（要視聴申込）“今さら聞けない、今こそ聞きたい” SIerも、ユーザー企業も、 「HCI再入門」">“今さら聞けない、今こそ聞きたい” SIerも、ユーザー企業も、 「HCI再入門」 [オンデマンド配信（要視聴申込）]</a></li>
+<li><a href="https://itmedia.smartseminar.jp/public/application/add/2074" title="2019/5/15（水）RPA2.0　デジタルワークフォース・イノベーションフォーラム2019">RPA2.0　デジタルワークフォース・イノベーションフォーラム2019 [2019/5/15（水）]</a></li>
+<li><a href="https://itmedia.smartseminar.jp/public/application/add/2063" title="2019/5/16（木）＠ITセミナー ～今すぐ使えるSD-WAN、日本で普及する理由とは～">＠ITセミナー ～今すぐ使えるSD-WAN、日本で普及する理由とは～ [2019/5/16（木）]</a></li>
+<li><a href="https://itmedia.smartseminar.jp/public/application/add/2103?sslp=1332_01" title="2019/6/19（水）～7/12（金）＠IT セキュリティセミナー 東京・大阪・札幌ロードショー">＠IT セキュリティセミナー 東京・大阪・札幌ロードショー [2019/6/19（水）～7/12（金）]</a></li>
+</ul></div>
+</div>
+</div>
+3
+<selenium.webdriver.remote.webelement.WebElement (session="db30bfd5609662622969461cebb883cd", element="0.3576726588315049-1")>
