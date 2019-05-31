@@ -1,0 +1,22 @@
+取得処理（クローリング）
+
+
+
+class NewsGetProccess
+
+
+
+
+class News
+get_scraing_site_info
+do_scraping
+scraping_by_itmedia
+edit_news_to_save
+edit_proc_log_to_save
+save_news_list
+save_proc_log
+disp_proc_result
+
+
+
+

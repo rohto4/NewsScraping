@@ -1,0 +1,44 @@
+CREATE TABLE IF NOT EXISTS `sample` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'コメント',
+  `c1` VARCHAR(255) NOT NULL DEFAULT 'hoge' COMMENT 'コメント',
+  `c2` TEXT,
+  `c3` TINYINT,
+  `c4` SMALLINT,
+  `c5` INT,
+  `c6` BIGINT,
+  `c7` DATETIME,
+  `c8` TIMESTAMP,
+  PRIMARY KEY(`id`),
+  UNIQUE(`c1`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT 'コメント';
+
+
+CREATE TABLE IF NOT EXISTS 'site_info'(
+  'site_id',VARCHAR(
+  'site_title',
+  'site_url',
+  'is_search',
+
+
+
+)
+// TODO 定義中
+// カラムのオプション + テーブルのオプション見直しから再開
+
+CREATE TABLE IF NOT EXISTS 'notice_info'(
+  'terms_id' INT(4) NOT NULL AUTO_INCREMENT COMMENT '条件ID',,
+  'terms_title'        VARCHAR(255) NOT NULL             COMMENT '条件名',
+  'term_tag_category1' VARCHAR(255)                      COMMENT '種別1-A',
+  'term_tag_category2' VARCHAR(255)                      COMMENT '種別1-B',
+  'term_type1'         VARCHAR(255)                      COMMENT '種別2-A',
+  'term_type2'         VARCHAR(255)                      COMMENT '種別2-B',
+  'source_site_id'     VARCHAR(3) NOT NULL               COMMENT 'ソースID',
+  'limit_post_date'    DATETIME                          COMMENT '記事投稿日',
+  'limit_get_date'     DATETIME                          COMMENT '記事取得日',
+  'create_date'        DATETIME NOT NULL DEFAULT(NOW())  COMMENT '作成日',
+PRIMARY KEY ('terms_id'),
+FOREIGN KEY ('source_site_id') REFERENCES 'site_info'('site_id')
+)
+
+参考サイト
+http://d.hatena.ne.jp/yk5656/20141207/1426177469

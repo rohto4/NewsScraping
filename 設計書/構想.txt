@@ -62,86 +62,36 @@
 
 --------------------------------------------------
 ◆テーブル定義
-①一次ソーステーブル（Qiita, 個人ブログ, @ITなど）
-			→ニューステーブルにどのカラムが保存されるか紐づけ
-// ②二次ソーステーブル（TechFeed, Gigazineなど）
-//			→必要？
-③ニュースメインテーブル
-			→タイトル、リンクなど記事そのものの情報を保存
-④条件設定テーブル？（設定ファイルでいいか）
-			→選別条件設定を保存する
-⑤サイト定義テーブル
-			→サイト名、URLなどを紐づける
-			→取得設定のON OFFを設定
-⑥ニュース付与情報テーブル
-			→個々のニュースがユーザから見てどのような状態か保存する
+→設計書に移動
+C:\work\IDE\Git\20_work\git\NewsScraping\設計書\NewsScrapingforSlack.xlsx
 
-①②テーブル③に入りうる値をサイトが毎にチェック
-※サイトの仕様変更が無い限り値に変動なし
-site_id			varchar
-is_title_text			boolean
-is_news_link_url			boolean
-is_news_tag_category1			boolean
-is_news_tag_category2			boolean
-is_news_tag_category3			boolean
-is_news_tag_category4			boolean
-is_news_tag_category5			boolean
-is_news_type1			boolean
-is_news_type2			boolean
-is_news_type3			boolean
-is_news_type4			boolean
-is_first_source_site_id			boolean
-is_second_source_site_id			boolean
-is_news_thumbnail_filename			boolean
+--------------------------------------------------
+【検討事項】
+001.同じ記事を何回も保存・通知してしまう件
+　→サイトurlの一致で重複を確認
+　→primary keyに取得日を追加して、重複を認識する
+　→[記事付与情報テーブル]の主キーは記事IDのみで管理し、
+　　記事に更新があるごとに"記事更新後既読フラグ"をリセットする
+　
+　案①重複を判定しない（テーブル内の記事重複を許容する）
+　案②<<URL>>重複で弾き、二度と表示しない
+　案③<<URL>>重複を認識し、上書きする
+　案④<<URL>>重複を認識し、取得日を分けて保存することで、更新扱いにする
+　※<<URL>>はサイトによって異なる
+◆検討結果（20190531）
+　↓
+　案④は取得日以外のカラムがすべて同じ値になる＆以前のデータを使う可能性が低い
+　案③でGO
+◆変更点
+テーブル定義
+　通知条件テーブルにカラムを追加			記事投稿日 / 記事取得日
+　記事付与情報テーブルにカラムを追加		更新後既読フラグ
 
-
-③ニュースそのものの情報を保持
-※定期取得時に追加
-news_id			varchar
-title_text			varchar
-news_link_url			varchar
-news_tag_category1			varchar
-news_tag_category2			varchar
-news_tag_category3			varchar
-news_tag_category4			varchar
-news_tag_category5			varchar
-news_type1			varchar
-news_type2			varchar
-news_type3			varchar
-news_type4			varchar
-first_source_site_id			varchar
-second_source_site_id			varchar
-news_thumbnail_filename			varchar
-post_date			datetime
-get_date			datetime
-※取得元サイトを増やす度に追加
-
-
-④通知などの設定を保持
-※いつでも変更可能、変更時は上書きではなく行の追加
-terms_id			varchar
-terms_title			varchar
-term_tag_category1			varchar
-term_tag_category2			varchar
-term_type1			varchar
-term_type2			varchar
-first_source_site_id			varchar
-create_date			datetime
-
-
-⑤ニュースサイトそのものの情報を記録
-※取得元サイトが増える度に追加
-site_id			varchar
-site_title			varchar
-site_url			varchar
-
-
-⑥ニュースに対してユーザの行った動作と状態を記録
-※ニュース取得時と何らかの操作をした際に追加
-news_id			varchar
-is_notice			boolean
-is_read			boolean
-
-
-
-
+処理
+　IF <<URL>>が重複の場合:
+　　　IF <<記事投稿日>>が異なる場合:
+　　　　　記事メインテーブルの更新日を更新
+　　　　　記事付与情報テーブルの更新後既読フラグを更新
+　
+-----
+002.

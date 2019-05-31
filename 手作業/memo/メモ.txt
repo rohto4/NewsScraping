@@ -19,3 +19,10 @@ mysql --host=HOST --user=USER --password=PASSWORD --reconnect heroku_xxxxxx < du
 
 
 CREATE DATABASE
+
+
+
+
+CREATE DATABASE sample_db
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
